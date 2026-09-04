@@ -749,403 +749,394 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 <!-- ════════════════════════════════════════════════════════════ -->
 <div id="page-patient-records" class="pg site-page" style="height:5926px;display:none">
 
-<style>
-#page-patient-records .pr-fade {
-  opacity:0;
-  transform:translateY(28px);
-  transition:opacity 0.65s cubic-bezier(0.4,0,0.2,1),transform 0.65s cubic-bezier(0.4,0,0.2,1);
-}
-#page-patient-records .pr-fade.visible {
-  opacity:1;
-  transform:translateY(0);
-}
-#page-patient-records .pr-delay1 { transition-delay:0.1s; }
-#page-patient-records .pr-delay2 { transition-delay:0.2s; }
-#page-patient-records .pr-delay3 { transition-delay:0.3s; }
-#page-patient-records .pr-delay4 { transition-delay:0.4s; }
-</style>
+  <!-- Light grey bg stripe -->
+  <div class="ab" style="top:1700px;left:50%;transform:translateX(-50%);width:1920px;height:1162px;background:rgba(242,244,247,0.4)"></div>
 
-<!-- ── LIGHT GREY BG top:1700 ── -->
-<div class="ab" style="background:rgba(242,244,247,0.4);height:1162px;left:50%;transform:translateX(-50%);top:1700px;width:1920px"></div>
+  <!-- ── HERO ──────────────────────────────── top:228 ── -->
+  <div class="ab" style="top:228px;left:240px;width:1440px;height:650px;display:flex;gap:60px;align-items:flex-start">
 
-<!-- ══════════════════════════════════════════════
-     HERO  top:228  left:240  w:1440  h:650
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="left:240px;top:228px;width:1440px;height:650px;display:flex;gap:60px;align-items:flex-start">
-
-  <!-- LEFT TEXT -->
-  <div style="width:700px;display:flex;flex-direction:column;gap:36px;flex-shrink:0">
-
-    <!-- Badge + Heading -->
-    <div style="display:flex;flex-direction:column;gap:18px">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div style="background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;height:40px;width:157px;grid-column:1;grid-row:1"></div>
-  <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13px;display:flex;align-items:center;gap:9px">
-    <div style="background:#00d9ce;height:4px;border-radius:60px;width:18px;flex-shrink:0"></div>
-    <p style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">Patient Records</p>
-  </div>
-</div>
-      <p style="font-weight:600;font-size:64px;line-height:68px;letter-spacing:-3.5px;color:#14204d;width:700px">A complete patient record, ready at every visit</p>
-    </div>
-
-    <!-- Description -->
-    <p style="font-weight:500;font-size:18px;line-height:24px;color:rgba(30,13,1,0.6);width:600px">Demographics, insurance, history, medications, documents, and visit notes in one organized chart.</p>
-
-    <!-- Checklist -->
-    <div style="display:flex;flex-direction:column;gap:4px;width:574px">
-      <div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">One unified patient chart</p></div><div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Medical history &amp; medications</p></div><div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Insurance &amp; guarantor details</p></div><div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Documents &amp; uploads</p></div><div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Role&#8209;based permissions</p></div><div style="display:flex;gap:12px;align-items:center"><div style="flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg></div><p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Visit &amp; encounter history</p></div>
-    </div>
-
-    <!-- CTA Buttons -->
-    <div style="display:flex;gap:26px;align-items:flex-start">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer"><span style="font-weight:700;font-size:18px;color:#fff">Get Started</span></div>
-  <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-</div>
-      <div style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
-  <span style="font-weight:700;font-size:18px;color:#2155b5">Book a Demo</span>
-</div>
-    </div>
-  </div>
-
-  <!-- RIGHT IMAGE -->
-  <div style="width:680px;height:650px;border-radius:18.358px;overflow:hidden;position:relative;flex-shrink:0">
-    <div style="position:absolute;height:651px;left:-217px;top:-5px;width:977px">
-      <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none">
-        <img alt="" style="position:absolute;height:108.87%;left:21.59%;max-width:none;top:-0.07%;width:72.55%" src="https://www.figma.com/api/mcp/asset/6cebaa7b-c322-4fbc-957b-d4bf0d55f032.png">
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════════
-     AT A GLANCE  top:1078  left:240  w:1440
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="left:240px;top:1078px;width:1440px;height:422px;display:flex;gap:567px;align-items:flex-start;overflow:hidden">
-
-  <!-- Badge only -->
-  <div style="flex-shrink:0">
-    <div style="position:relative;display:inline-grid;place-items:start">
-  <div style="background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;height:40px;width:132px;grid-column:1;grid-row:1"></div>
-  <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13px;display:flex;align-items:center;gap:9px">
-    <div style="background:#00d9ce;height:4px;border-radius:60px;width:18px;flex-shrink:0"></div>
-    <p style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">At A Glance</p>
-  </div>
-</div>
-  </div>
-
-  <!-- Right: paragraph + stats -->
-  <div style="display:flex;flex-direction:column;gap:40px;height:422px;width:741px;overflow:hidden">
-    <div style="display:flex;flex-direction:column;gap:24px">
-      <p style="font-weight:400;font-size:36px;line-height:44px;color:#1e0d01;letter-spacing:-2px;width:753px">A complete patient chart brings demographics, insurance, medical history, medications, allergies, documents, and visit information together, so clinical, front&#8209;desk, and billing teams all work from the same source.</p>
-      <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">No duplicate entry and no switching between disconnected systems — the record follows the patient from check&#8209;in through follow&#8209;up.</p>
-    </div>
-    <!-- Stats -->
-    <div style="display:flex;gap:24px;align-items:center;overflow:hidden">
-      <div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px;overflow:hidden"><p style="font-weight:400;font-size:48px;line-height:49.92px;color:#1e0d01;letter-spacing:-3.5px;text-align:center">100%</p><p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center;opacity:0.6">One complete record</p></div><div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px;overflow:hidden"><p style="font-weight:400;font-size:48px;line-height:49.92px;color:#1e0d01;letter-spacing:-3.5px;text-align:center">24/7</p><p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center;opacity:0.6">Secure cloud access</p></div><div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px;overflow:hidden"><p style="font-weight:400;font-size:48px;line-height:49.92px;color:#1e0d01;letter-spacing:-3.5px;text-align:center">0</p><p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center;opacity:0.6">Duplicate data entry</p></div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════════
-     WHY IT MATTERS  top:1820  centered  w:1440
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="left:240px;top:1820px;width:1440px;display:flex;flex-direction:column;gap:80px">
-
-  <!-- Row 1: heading | description -->
-  <div style="display:flex;gap:275px;height:236px;align-items:center">
-    <!-- Left: badge + gradient heading -->
-    <div style="width:619px;display:flex;flex-direction:column;gap:32px;justify-content:center">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div style="background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;height:40px;width:166px;grid-column:1;grid-row:1"></div>
-  <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13px;display:flex;align-items:center;gap:9px">
-    <div style="background:#00d9ce;height:4px;border-radius:60px;width:18px;flex-shrink:0"></div>
-    <p style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">Why it matters</p>
-  </div>
-</div>
-      <p style="font-weight:500;font-size:64px;line-height:70px;letter-spacing:-1.32px;color:#14204d">One record, from <span style="background:linear-gradient(to right,#2155b5,#00d9ce);-webkit-background-clip:text;background-clip:text;color:transparent">check&#8209;in to follow&#8209;up</span></p>
-    </div>
-    <!-- Right: description -->
-    <div style="width:552px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:16px">
-      <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:right;width:552px">Each visit becomes part of an ongoing record your team can rely on, helping everyone stay informed and provide better care.</p>
-    </div>
-  </div>
-
-  <!-- Row 2: dark image + white feature cards overlay -->
-  <div style="height:606px;border-radius:24px;overflow:hidden;position:relative;width:1440px">
-    <!-- Dark bg -->
-    <div style="position:absolute;background:#151414;height:606px;left:0;top:0;width:1680px"></div>
-    <!-- Feature bg image -->
-    <img alt="" style="position:absolute;inset:0;max-width:none;object-fit:cover;opacity:0.8;pointer-events:none;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/1eff9bdd-dfb6-41cc-a888-82824a08ccbe.png">
-    <!-- White card overlay: left:140 top:98 w:1159.191 h:416 -->
-    <div style="position:absolute;left:140px;top:98px;width:1159.191px;height:416px;background:#fff;border-radius:18.697px;padding:28.045px;display:flex;gap:28.045px;align-items:center;justify-content:center;overflow:clip">
-      <div style="background:#fafafa;flex:1;min-width:0;border-radius:14.022px;padding:35.056px;display:flex;flex-direction:column;gap:37.393px;position:relative;height:359.91px;overflow:clip">
-  <div style="width:70.112px;height:70.112px;border-radius:14.022px;background:linear-gradient(134deg,#f5f5f5,#fff);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;border:1.169px solid rgba(30,13,1,0.12)">
-    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-  </div>
-  <div style="display:flex;flex-direction:column;gap:18.697px;width:467.416px">
-    <p style="font-weight:500;font-size:24px;line-height:23.371px;color:#1e0d01;letter-spacing:-0.3506px;white-space:nowrap">One chart for the whole team</p>
-    <p style="font-weight:500;font-size:18px;line-height:28.045px;color:rgba(30,13,1,0.6);width:467.416px">Providers review prior visits, history, medications, allergies, orders, and documents before opening an encounter, while front&#8209;desk and billing work from the same patient record.</p>
-  </div>
-  <div style="position:absolute;border:1.169px solid rgba(30,13,1,0.12);border-radius:14.022px;inset:0;pointer-events:none"></div>
-</div>
-      <div style="background:#fafafa;flex:1;min-width:0;border-radius:14.022px;padding:35.056px;display:flex;flex-direction:column;gap:37.393px;position:relative;height:359.91px;overflow:clip">
-  <div style="width:70.112px;height:70.112px;border-radius:14.022px;background:linear-gradient(134deg,#f5f5f5,#fff);display:flex;align-items:center;justify-content:center;flex-shrink:0;position:relative;border:1.169px solid rgba(30,13,1,0.12)">
-    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-  </div>
-  <div style="display:flex;flex-direction:column;gap:18.697px;width:467.416px">
-    <p style="font-weight:500;font-size:24px;line-height:23.371px;color:#1e0d01;letter-spacing:-0.3506px;white-space:nowrap">History without rebuilding it</p>
-    <p style="font-weight:500;font-size:18px;line-height:28.045px;color:rgba(30,13,1,0.6);width:467.416px">Compare current findings with previous notes and prepare for follow&#8209;up with the relevant information already in place. Role&#8209;based permissions control what each user can see.</p>
-  </div>
-  <div style="position:absolute;border:1.169px solid rgba(30,13,1,0.12);border-radius:14.022px;inset:0;pointer-events:none"></div>
-</div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════════
-     MORE FEATURES  top:3062  left:240  w:1440
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="left:240px;top:3062px;width:1440px;display:flex;flex-direction:column;gap:80px">
-
-  <!-- Header row -->
-  <div style="display:flex;gap:65px;height:256px;align-items:center">
-    <div style="display:flex;flex-direction:column;gap:32px">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div style="background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;height:40px;width:149px;grid-column:1;grid-row:1"></div>
-  <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13px;display:flex;align-items:center;gap:9px">
-    <div style="background:#00d9ce;height:4px;border-radius:60px;width:18px;flex-shrink:0"></div>
-    <p style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">More features</p>
-  </div>
-</div>
-      <p style="font-weight:500;font-size:64px;line-height:70px;letter-spacing:-1.32px;color:#14204d;width:755px">The rest of the <span style="background:linear-gradient(to right,#2155b5,#00d9ce);-webkit-background-clip:text;background-clip:text;color:transparent">patient workflow</span></p>
-    </div>
-    <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:right;width:626px">Patient Records connects to scheduling, intake, eligibility, clinical notes, prescribing, labs, billing, and the patient portal across FractionEHR.</p>
-  </div>
-
-  <!-- 4 module cards -->
-  <div style="position:relative;height:293px;width:1440px">
-    <div onclick="navigate('digital-intake','Digital Intake')" style="position:absolute;left:0px;top:0;width:337px;border:1px solid #2155b5;border-radius:16px;padding:32px;height:293px;display:flex;flex-direction:column;gap:18px;cursor:pointer">
-  <div style="background:#00d9ce;overflow:hidden;border-radius:28px;flex-shrink:0;width:56px;height:56px;display:flex;align-items:center;justify-content:center">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
-  </div>
-  <div style="display:flex;flex-direction:column;gap:16px;flex:1;overflow:hidden">
-    <p style="font-weight:500;font-size:22px;line-height:30px;color:#14204d;letter-spacing:-0.6px">Digital Intake</p>
-    <p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Patient details, insurance, forms, and visit requirements collected before the encounter.</p>
-    <p style="font-weight:700;font-size:15px;color:#2155b5">See digital intake →</p>
-  </div>
-</div>
-    <div style="position:absolute;left:367px;top:0;width:338px;border:1px solid #2155b5;border-radius:16px;padding:32px;height:293px;display:flex;flex-direction:column;gap:18px;cursor:pointer" onclick="navigate('clinical-notes','Clinical Notes')">
-      <div style="background:#00d9ce;overflow:hidden;border-radius:28px;flex-shrink:0;width:56px;height:56px;display:flex;align-items:center;justify-content:center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg></div>
-      <div style="display:flex;flex-direction:column;gap:16px;flex:1"><p style="font-weight:500;font-size:22px;line-height:30px;color:#14204d;letter-spacing:-0.6px">Clinical Notes</p><p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Complaints, history, exam, assessment, plan, orders, and follow&#8209;up in one encounter.</p><p style="font-weight:700;font-size:15px;color:#2155b5">See clinical notes →</p></div>
-    </div>
-    <div style="position:absolute;left:735px;top:0;width:338px;border:1px solid #2155b5;border-radius:16px;padding:32px;height:293px;display:flex;flex-direction:column;gap:18px;cursor:pointer" onclick="navigate('billing-claims','Billing &amp; Claims')">
-      <div style="background:#00d9ce;overflow:hidden;border-radius:28px;flex-shrink:0;width:56px;height:56px;display:flex;align-items:center;justify-content:center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg></div>
-      <div style="display:flex;flex-direction:column;gap:16px;flex:1"><p style="font-weight:500;font-size:22px;line-height:30px;color:#14204d;letter-spacing:-0.6px">Billing &amp; Claims</p><p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Claims, payments, rejections, and account follow&#8209;up managed after each visit.</p><p style="font-weight:700;font-size:15px;color:#2155b5">See billing &amp; claims →</p></div>
-    </div>
-    <div style="position:absolute;left:1103px;top:0;width:337px;border:1px solid #2155b5;border-radius:16px;padding:32px;height:293px;display:flex;flex-direction:column;gap:18px;cursor:pointer" onclick="navigate('patient-portal','Patient Portal')">
-      <div style="background:#00d9ce;overflow:hidden;border-radius:28px;flex-shrink:0;width:56px;height:56px;display:flex;align-items:center;justify-content:center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg></div>
-      <div style="display:flex;flex-direction:column;gap:16px;flex:1"><p style="font-weight:500;font-size:22px;line-height:30px;color:#14204d;letter-spacing:-0.6px">Patient Portal</p><p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Patient self&#8209;service for records, appointments, messages, and balances.</p><p style="font-weight:700;font-size:15px;color:#2155b5">See patient portal →</p></div>
-    </div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════════
-     FAQ  top:3891  centered  w:1440
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="left:240px;top:3891px;width:1440px;display:flex;gap:168px;align-items:flex-start">
-
-  <!-- Left: badge + heading + buttons -->
-  <div style="width:546px;display:flex;flex-direction:column;gap:48px">
-    <div style="display:flex;flex-direction:column;gap:32px;justify-content:center">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div style="background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;height:40px;width:92px;grid-column:1;grid-row:1"></div>
-  <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13px;display:flex;align-items:center;gap:9px">
-    <div style="background:#00d9ce;height:4px;border-radius:60px;width:18px;flex-shrink:0"></div>
-    <p style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">FAQ</p>
-  </div>
-</div>
-      <p style="font-weight:500;font-size:64px;line-height:74px;letter-spacing:-3.5px;color:#14204d">Frequently Asked <span style="background:linear-gradient(to right,#2155b5 9.615%,#00d9ce 100%);-webkit-background-clip:text;background-clip:text;color:transparent">Questions</span></p>
-      <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);width:350px">Answers about how the patient record works across your practice.</p>
-    </div>
-    <div style="display:flex;gap:26px;align-items:flex-start">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer"><span style="font-weight:700;font-size:18px;color:#fff">Get Started</span></div>
-  <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-</div>
-      <div style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
-  <span style="font-weight:700;font-size:18px;color:#2155b5">Book a Demo</span>
-</div>
-    </div>
-  </div>
-
-  <!-- Right: 6 FAQ items -->
-  <div style="width:721px;display:flex;flex-direction:column;gap:20px">
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;position:relative">
-  <div style="display:flex;gap:9px;align-items:flex-start;margin-bottom:12px">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0">Can front&#8209;desk, clinical, and billing staff see the same record?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <p style="font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);width:592px">Yes. Demographics, insurance, medical history, documents, and account information live in one patient chart, and role&#8209;based permissions control what each team can access.</p>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;height:71px;overflow:hidden;position:relative">
-  <div style="display:flex;gap:16px;align-items:flex-start">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">How is access to the patient chart controlled?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;height:71px;overflow:hidden;position:relative">
-  <div style="display:flex;gap:16px;align-items:flex-start">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Can providers review a patient&#8217;s history before the visit?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;height:71px;overflow:hidden;position:relative">
-  <div style="display:flex;gap:16px;align-items:flex-start">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Where do documents, forms, and uploads live?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;height:71px;overflow:hidden;position:relative">
-  <div style="display:flex;gap:16px;align-items:flex-start">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Does Patient Records connect to scheduling and billing?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-    <div style="background:#f5f5f5;padding:20px 24px;border-radius:12px;height:71px;overflow:hidden;position:relative">
-  <div style="display:flex;gap:16px;align-items:flex-start">
-    <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Is patient information kept secure?</p>
-    <div style="width:24px;height:27px;display:flex;align-items:center;justify-content:center;flex-shrink:0;padding-top:3px"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1e0d01" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="transform:rotate(180deg)"><path d="M19 9l-7 7-7-7"/></svg></div>
-  </div>
-  <div style="position:absolute;border:1px solid rgba(30,13,1,0.12);border-radius:12px;top:0;left:2px;right:-2px;bottom:0;pointer-events:none"></div>
-</div>
-  </div>
-</div>
-
-<!-- ══════════════════════════════════════════════
-     CTA  top:4675  centered  w:1440
-══════════════════════════════════════════════ -->
-<div class="ab pr-fade" style="top:4675px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px">
-  <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
-    <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
-      <div style="transform:rotate(90deg);flex:none"><div style="height:1443px;width:416px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%;object-position:bottom;pointer-events:none" src="https://www.figma.com/api/mcp/asset/270953d4-30c9-49ce-8fb3-9efea900639f.png" alt=""></div></div>
-    </div>
-  </div>
-  <div style="position:relative;width:560px;height:251px;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;overflow:clip">
-    <div style="display:flex;flex-direction:column;gap:16px;align-items:center;width:560px">
-      <p style="font-weight:500;font-size:44px;line-height:48.4px;letter-spacing:-1.32px;color:#fff;text-align:center;width:560px">See the patient chart your whole team can work from</p>
-      <p style="font-weight:500;font-size:16px;color:#fff;line-height:24px;text-align:center;width:545px">Book a walkthrough and see how FractionEHR keeps records, scheduling, and billing connected.</p>
-    </div>
-    <div style="display:flex;gap:26px;align-items:flex-start">
-      <div style="position:relative;display:inline-grid;place-items:start">
-  <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer"><span style="font-weight:700;font-size:18px;color:#fff">Get Started</span></div>
-  <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-</div>
-      <div style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
-  <span style="font-weight:700;font-size:18px;color:#2155b5">Book a Demo</span>
-</div>
-    </div>
-  </div>
-</div>
-
-<!-- FOOTER -->
-<div class="ab" style="top:4948px;left:0;width:1920px;height:978px;background:#0d2248"></div>
-<div class="ab" style="left:317px;top:4948px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
-  <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
-    <div style="display:flex;flex-direction:column;gap:32px;width:350px">
-      <div style="display:flex;flex-direction:column;gap:16px;width:350px">
-        <div onclick="navigate('home')" style="cursor:pointer;display:flex;align-items:center;gap:12px">
-          <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><circle cx="19" cy="19" r="19" fill="#00d9ce"/><path d="M19 10l7 9H12l7-9z" fill="white"/></svg>
-          <span style="font-weight:600;font-size:25px;color:#fff;white-space:nowrap">FractionEHR</span>
+    <!-- Left column -->
+    <div style="width:700px;display:flex;flex-direction:column;gap:36px;flex-shrink:0">
+      <div style="display:flex;flex-direction:column;gap:26px">
+        <!-- Badge -->
+        <div style="display:inline-flex;align-items:center;gap:9px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 16px;height:40px;align-self:flex-start;width:fit-content">
+          <div style="width:18px;height:4px;background:#00d9ce;border-radius:60px;flex-shrink:0"></div>
+          <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">Patient Records</span>
         </div>
-        <p style="font-weight:500;font-size:16px;color:#fafafa;line-height:24px;width:351px">FractionEHR is a managed, OpenEMR&#8209;based cloud EHR and practice management platform for independent practices and clinics.</p>
-      </div>
-      <div style="display:flex;gap:8px"><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div></div>
-    </div>
-    <div style="display:flex;gap:52px;height:529px;align-items:flex-start;font-weight:500;white-space:nowrap;overflow:clip;width:816px">
-      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
-        <p style="font-size:24px;color:#fff;line-height:36px">Products</p>
-        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:24px">
-          <p onclick="navigate('edi-clearing-house','EDI Clearing House')" class="fl" style="color:#fafafa">EDI Clearing House</p>
-          <p onclick="navigate('practice-mate','Practice Mate')" class="fl" style="color:#fafafa">Practice Mate</p>
-          <p onclick="navigate('ehr-247','EHR 24/7')" class="fl" style="color:#fafafa">EHR 24/7</p>
-          <p style="color:#fafafa;opacity:.5">Insurance Discovery</p>
+        <!-- H1 -->
+        <p style="font-weight:700;font-size:64px;line-height:68px;letter-spacing:-3.5px;color:#14204d;width:700px">A complete patient record, ready at every visit</p>
+        <!-- Description -->
+        <p style="font-weight:500;font-size:18px;line-height:24px;color:rgba(30,13,1,0.6);width:600px">Demographics, insurance, history, medications, documents, and visit notes in one organized chart.</p>
+        <!-- Checklist -->
+        <div style="display:flex;flex-direction:column;gap:4px;width:574px">
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">One unified patient chart</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">Medical history &amp; medications</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">Insurance &amp; guarantor details</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">Documents &amp; uploads</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">Role‑based permissions</span></div>
+          <div style="display:flex;gap:12px;align-items:center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" style="flex-shrink:0"><circle cx="10" cy="10" r="10" fill="#00d9ce"/><path d="M6 10l3 3 5-6" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span style="font-weight:400;font-size:16.5px;line-height:28px;color:#4b5568">Visit &amp; encounter history</span></div>
         </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:515px">
-        <p style="font-size:24px;color:#fff;line-height:36px">Solutions</p>
-        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
-          <p onclick="navigate('patient-records','Patient Records')" class="fl">Patient Records</p>
-          <p onclick="navigate('digital-intake','Digital Intake')" class="fl">Digital Intake &amp; Registration</p>
-          <p onclick="navigate('clinical-notes','Clinical Notes')" class="fl">Clinical Notes &amp; Documentation</p>
-          <p onclick="navigate('labs-orders','Labs &amp; Orders')" class="fl">Labs &amp; Orders</p>
-          <p onclick="navigate('patient-portal','Patient Portal')" class="fl">Patient Portal</p>
-          <p onclick="navigate('role-based-access','Role-Based Access')" class="fl">Role&#8209;Based Access</p>
-          <p onclick="navigate('appointment-scheduling','Appointment Scheduling')" class="fl">Appointment Scheduling</p>
-          <p onclick="navigate('insurance-eligibility','Insurance Eligibility')" class="fl">Insurance Eligibility</p>
-          <p onclick="navigate('eprescribing','ePrescribing')" class="fl">ePrescribing</p>
-          <p onclick="navigate('billing-claims','Billing &amp; Claims')" class="fl">Billing &amp; Claims</p>
-          <p onclick="navigate('reports-analytics','Reports &amp; Analytics')" class="fl">Reports &amp; Analytics</p>
-          <p onclick="navigate('data-migration','Data Migration')" class="fl">Data Migration</p>
+      <!-- CTAs -->
+      <div style="display:flex;gap:26px;align-items:center">
+        <div style="position:relative;display:inline-grid;place-items:start">
+          <div style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer">
+            <span style="font-weight:700;font-size:18px;color:#fff;white-space:nowrap">Get Started</span>
+          </div>
+          <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px;position:relative"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+        <div style="background:#fff;border:1px solid #2155b5;border-radius:139px;height:58px;width:260px;display:flex;align-items:center;justify-content:center;cursor:pointer">
+          <span style="font-weight:700;font-size:18px;color:#2155b5">Book a Demo</span>
         </div>
       </div>
-      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
-        <p style="font-size:24px;color:#fff;line-height:36px">Resources</p>
-        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
-          <p class="fl">Blogs</p><p class="fl">What&#8217;s New</p><p class="fl">Knowledge Hub</p>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
-        <p style="font-size:24px;color:#fff;line-height:36px">Company</p>
-        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
-          <p onclick="navigate('company','Our Company')" class="fl">Our Company</p>
-          <p onclick="navigate('contact','Contact Us')" class="fl">Contact Us</p>
-          <p class="fl">Pricing</p>
+    </div>
+
+    <!-- Right: Hero image -->
+    <div style="width:680px;height:650px;border-radius:18.358px;overflow:hidden;position:relative;flex-shrink:0">
+      <div style="position:absolute;height:651px;left:-217px;top:-5px;width:977px">
+        <div style="position:absolute;inset:0;overflow:hidden;pointer-events:none">
+          <img alt="" style="position:absolute;height:108.87%;left:21.59%;max-width:none;top:-0.07%;width:72.55%" src="https://www.figma.com/api/mcp/asset/ac61f9c2-2b72-4809-897b-f45ccf4cdcd1.png">
         </div>
       </div>
     </div>
   </div>
-  <div style="border-top:1px solid #f2f4f7;display:flex;height:60px;align-items:center;justify-content:center;padding:18px 20px;width:100%">
-    <p style="font-weight:500;font-size:16px;color:#fff;white-space:nowrap;line-height:24px">&#169; 2026 FractionEHR. All rights reserved.</p>
+
+  <!-- ── AT A GLANCE ────────────────────── top:1078 ── -->
+  <div class="ab" style="top:1078px;left:240px;width:1440px;height:422px;display:flex;gap:567px;align-items:flex-start;overflow:hidden">
+    <!-- Badge -->
+    <div style="flex-shrink:0;padding-top:0">
+      <div style="display:inline-flex;align-items:center;gap:9px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 16px;height:40px;align-self:flex-start;width:fit-content">
+        <div style="width:18px;height:4px;background:#00d9ce;border-radius:60px;flex-shrink:0"></div>
+        <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">At A Glance</span>
+      </div>
+    </div>
+    <!-- Right: text + stats -->
+    <div style="width:741px;display:flex;flex-direction:column;gap:40px">
+      <div style="display:flex;flex-direction:column;gap:24px">
+        <p style="font-weight:400;font-size:36px;line-height:44px;letter-spacing:-2px;color:#1e0d01;width:753px">A complete patient chart brings demographics, insurance, medical history, medications, allergies, documents, and visit information together, so clinical, front‑desk, and billing teams all work from the same source.</p>
+        <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">No duplicate entry and no switching between disconnected systems — the record follows the patient from check‑in through follow‑up.</p>
+      </div>
+      <!-- Stats -->
+      <div style="display:flex;gap:24px;align-items:center">
+        <div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px">
+          <span style="font-weight:400;font-size:48px;line-height:1;letter-spacing:-3.5px;color:#1e0d01">100%</span>
+          <span style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center">One complete record</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px">
+          <span style="font-weight:400;font-size:48px;line-height:1;letter-spacing:-3.5px;color:#1e0d01">24/7</span>
+          <span style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center">Secure cloud access</span>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px;align-items:center;width:180px">
+          <span style="font-weight:400;font-size:48px;line-height:1;letter-spacing:-3.5px;color:#1e0d01">0</span>
+          <span style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:center">Duplicate data entry</span>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 
-<!-- ══ SCROLL ANIMATION SCRIPT ══ -->
-<script>
-(function(){
-  var page = document.getElementById('page-patient-records');
-  if(!page) return;
-  var els = page.querySelectorAll('.pr-fade');
-  function check(){
-    if(page.style.display==='none') return;
-    var vh = window.innerHeight;
-    els.forEach(function(el){
-      var r = el.getBoundingClientRect();
-      if(r.top < vh * 0.88) el.classList.add('visible');
-    });
-  }
-  var scrollBound = false;
-  var mo = new MutationObserver(function(){
-    if(page.style.display!=='none'){
-      setTimeout(check, 80);
-      if(!scrollBound){ window.addEventListener('scroll', check, {passive:true}); scrollBound=true; }
-    } else {
-      window.removeEventListener('scroll', check);
-      scrollBound=false;
-      els.forEach(function(el){ el.classList.remove('visible'); });
-    }
-  });
-  mo.observe(page, {attributes:true, attributeFilter:['style']});
-})();
-</script>
+  <!-- ── WHY IT MATTERS ─────────────────── top:1820 ── -->
+  <div class="ab" style="top:1820px;left:50%;transform:translateX(-50%);width:1440px;display:flex;flex-direction:column;gap:80px">
+    <!-- Heading row -->
+    <div style="display:flex;gap:275px;align-items:center;height:236px">
+      <div style="display:flex;flex-direction:column;gap:32px;width:619px;flex-shrink:0">
+        <div style="display:inline-flex;align-items:center;gap:9px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 16px;height:40px;align-self:flex-start;width:fit-content">
+          <div style="width:18px;height:4px;background:#00d9ce;border-radius:60px;flex-shrink:0"></div>
+          <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">Why it matters</span>
+        </div>
+        <p style="font-weight:500;font-size:64px;line-height:70px;letter-spacing:-1.32px;color:#14204d">One record, from <span class="g2">check‑in to follow‑up</span></p>
+      </div>
+      <div style="display:flex;align-items:flex-end;justify-content:center;padding-bottom:16px;height:140px">
+        <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:right;width:552px">Each visit becomes part of an ongoing record your team can rely on, helping everyone stay informed and provide better care.</p>
+      </div>
+    </div>
+    <!-- Dark image + cards -->
+    <div style="height:606px;border-radius:24px;overflow:hidden;position:relative;width:100%">
+      <div style="position:absolute;inset:0;background:#151414"></div>
+      <img src="https://www.figma.com/api/mcp/asset/5c87baeb-0e5e-485e-804b-390d0e72538e.png" style="position:absolute;left:-85px;top:-1px;width:1638px;height:607px;object-fit:cover;opacity:0.8">
+      <!-- White card panel -->
+      <div style="position:absolute;left:140px;top:98px;width:1159px;height:416px;background:#fff;border-radius:19px;padding:28px;display:flex;gap:28px;align-items:center;overflow:hidden">
+        <!-- Card 1 -->
+        <div style="background:#fafafa;border-radius:14px;padding:35px;display:flex;flex-direction:column;gap:37px;width:537px;height:360px;position:relative;flex-shrink:0">
+          <div style="width:70px;height:70px;border-radius:14px;background:linear-gradient(134deg,#f5f5f5,#fff);display:flex;align-items:center;justify-content:center;border:1.2px solid rgba(30,13,1,0.12);flex-shrink:0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <p style="font-weight:500;font-size:24px;line-height:23px;letter-spacing:-0.35px;color:#1e0d01">One chart for the whole team</p>
+            <p style="font-weight:500;font-size:18px;line-height:28px;color:rgba(30,13,1,0.6)">Providers review prior visits, history, medications, allergies, orders, and documents before opening an encounter, while front‑desk and billing work from the same patient record.</p>
+          </div>
+          <div style="position:absolute;inset:0;border:1.2px solid rgba(30,13,1,0.12);border-radius:14px;pointer-events:none"></div>
+        </div>
+        <!-- Card 2 -->
+        <div style="background:#fafafa;border-radius:14px;padding:35px;display:flex;flex-direction:column;gap:37px;width:537px;height:360px;position:relative;flex-shrink:0">
+          <div style="width:70px;height:70px;border-radius:14px;background:linear-gradient(134deg,#f5f5f5,#fff);display:flex;align-items:center;justify-content:center;border:1.2px solid rgba(30,13,1,0.12);flex-shrink:0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div style="display:flex;flex-direction:column;gap:18px">
+            <p style="font-weight:500;font-size:24px;line-height:23px;letter-spacing:-0.35px;color:#1e0d01">History without rebuilding it</p>
+            <p style="font-weight:500;font-size:18px;line-height:28px;color:rgba(30,13,1,0.6)">Compare current findings with previous notes and prepare for follow‑up with the relevant information already in place. Role‑based permissions control what each user can see.</p>
+          </div>
+          <div style="position:absolute;inset:0;border:1.2px solid rgba(30,13,1,0.12);border-radius:14px;pointer-events:none"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- ── MORE FEATURES ──────────────────── top:3062 ── -->
+  <div class="ab" style="top:3062px;left:240px;width:1440px;display:flex;flex-direction:column;gap:80px">
+    <!-- Header row -->
+    <div style="display:flex;gap:65px;align-items:center;width:100%;height:256px">
+      <div style="display:flex;flex-direction:column;gap:32px;flex-shrink:0;width:749px">
+        <div style="display:inline-flex;align-items:center;gap:9px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 16px;height:40px;align-self:flex-start;width:fit-content">
+          <div style="width:18px;height:4px;background:#00d9ce;border-radius:60px;flex-shrink:0"></div>
+          <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">More features</span>
+        </div>
+        <p style="font-weight:500;font-size:64px;line-height:70px;letter-spacing:-1.32px;color:#14204d;width:100%">The rest of the <span class="g2">patient workflow</span></p>
+      </div>
+      <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);text-align:right;width:626px">Patient Records connects to scheduling, intake, eligibility, clinical notes, prescribing, labs, billing, and the patient portal across FractionEHR.</p>
+    </div>
+    <!-- 4 Cards -->
+    <div style="position:relative;width:100%;height:293px">
+      <!-- Digital Intake -->
+      <div onclick="navigate('digital-intake','Digital Intake')" style="position:absolute;left:0;top:0;width:337px;height:293px;border:1px solid #2155b5;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:18px;cursor:pointer">
+        <div style="width:56px;height:56px;background:#00d9ce;border-radius:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"/></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <p style="font-weight:500;font-size:22px;line-height:30px;letter-spacing:-0.6px;color:#14204d">Digital Intake</p>
+          <p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Patient details, insurance, forms, and visit requirements collected before the encounter.</p>
+          <p style="font-weight:700;font-size:15px;color:#2155b5">See digital intake  →</p>
+        </div>
+      </div>
+      <!-- Clinical Notes -->
+      <div onclick="navigate('clinical-notes','Clinical Notes')" style="position:absolute;left:367px;top:0;width:338px;height:293px;border:1px solid #2155b5;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:18px;cursor:pointer">
+        <div style="width:56px;height:56px;background:#00d9ce;border-radius:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <p style="font-weight:500;font-size:22px;line-height:30px;letter-spacing:-0.6px;color:#14204d">Clinical Notes</p>
+          <p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Complaints, history, exam, assessment, plan, orders, and follow‑up in one encounter.</p>
+          <p style="font-weight:700;font-size:15px;color:#2155b5">See clinical notes  →</p>
+        </div>
+      </div>
+      <!-- Billing & Claims -->
+      <div onclick="navigate('billing-claims','Billing & Claims')" style="position:absolute;left:735px;top:0;width:338px;height:293px;border:1px solid #2155b5;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:18px;cursor:pointer">
+        <div style="width:56px;height:56px;background:#00d9ce;border-radius:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <p style="font-weight:500;font-size:22px;line-height:30px;letter-spacing:-0.6px;color:#14204d">Billing &amp; Claims</p>
+          <p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Claims, payments, rejections, and account follow‑up managed after each visit.</p>
+          <p style="font-weight:700;font-size:15px;color:#2155b5">See billing &amp; claims  →</p>
+        </div>
+      </div>
+      <!-- Patient Portal -->
+      <div onclick="navigate('patient-portal','Patient Portal')" style="position:absolute;left:1103px;top:0;width:337px;height:293px;border:1px solid #2155b5;border-radius:16px;padding:32px;display:flex;flex-direction:column;gap:18px;cursor:pointer">
+        <div style="width:56px;height:56px;background:#00d9ce;border-radius:28px;display:flex;align-items:center;justify-content:center;flex-shrink:0">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <p style="font-weight:500;font-size:22px;line-height:30px;letter-spacing:-0.6px;color:#14204d">Patient Portal</p>
+          <p style="font-weight:400;font-size:15px;line-height:24px;color:#4b5568">Patient self‑service for records, appointments, messages, and balances.</p>
+          <p style="font-weight:700;font-size:15px;color:#2155b5">See patient portal  →</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FAQ ────────────────────────────── top:3891 ── -->
+  <div class="ab" style="top:3891px;left:50%;transform:translateX(-50%);width:1440px;display:flex;gap:168px;align-items:flex-start">
+    <!-- Left: heading + CTAs -->
+    <div style="width:546px;display:flex;flex-direction:column;gap:48px;flex-shrink:0">
+      <div style="display:flex;flex-direction:column;gap:32px">
+        <div style="display:inline-flex;align-items:center;gap:9px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 16px;height:40px;align-self:flex-start;width:fit-content">
+          <div style="width:18px;height:4px;background:#00d9ce;border-radius:60px;flex-shrink:0"></div>
+          <span style="font-weight:700;font-size:12.5px;color:#2155b5">FAQ</span>
+        </div>
+        <p style="font-weight:500;font-size:64px;line-height:74px;letter-spacing:-3.5px;color:#14204d">Frequently Asked <span class="g6">Questions</span></p>
+        <p style="font-weight:500;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);width:350px">Answers about how the patient record works across your practice.</p>
+      </div>
+      <div style="display:flex;gap:26px;align-items:center">
+        <div style="position:relative;display:inline-grid;place-items:start">
+          <div style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer">
+            <span style="font-weight:700;font-size:18px;color:#fff;white-space:nowrap">Get Started</span>
+          </div>
+          <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px;position:relative"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+        <div style="background:#fff;border:1px solid #2155b5;border-radius:139px;height:58px;width:260px;display:flex;align-items:center;justify-content:center;cursor:pointer">
+          <span style="font-weight:700;font-size:18px;color:#2155b5">Book a Demo</span>
+        </div>
+      </div>
+    </div>
+    <!-- Right: accordion -->
+    <div id="pr-faq" style="width:721px;display:flex;flex-direction:column;gap:20px">
+      <!-- Q1 open -->
+      <div class="pr-faq-item pr-open" onclick="togglePrFaq(0)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:9px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">Can front‑desk, clinical, and billing staff see the same record?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">−</span>
+        </div>
+        <p class="pr-faq-answer" style="margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6);width:592px">Yes. Demographics, insurance, medical history, documents, and account information live in one patient chart, and role‑based permissions control what each team can access.</p>
+      </div>
+      <!-- Q2 -->
+      <div class="pr-faq-item" onclick="togglePrFaq(1)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">How is access to the patient chart controlled?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">+</span>
+        </div>
+        <p class="pr-faq-answer" style="display:none;margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">FractionEHR uses role‑based permissions so every team member only sees what their role requires. Administrators configure access levels during onboarding and can adjust them at any time.</p>
+      </div>
+      <!-- Q3 -->
+      <div class="pr-faq-item" onclick="togglePrFaq(2)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">Can providers review a patient's history before the visit?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">+</span>
+        </div>
+        <p class="pr-faq-answer" style="display:none;margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">Yes. Providers can open the patient chart at any time to review prior visits, notes, medications, allergies, orders, and documents before the encounter begins.</p>
+      </div>
+      <!-- Q4 -->
+      <div class="pr-faq-item" onclick="togglePrFaq(3)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">Where do documents, forms, and uploads live?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">+</span>
+        </div>
+        <p class="pr-faq-answer" style="display:none;margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">All uploaded documents, scanned forms, lab results, and referral letters attach directly to the patient chart and stay organized alongside visit history.</p>
+      </div>
+      <!-- Q5 -->
+      <div class="pr-faq-item" onclick="togglePrFaq(4)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">Does Patient Records connect to scheduling and billing?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">+</span>
+        </div>
+        <p class="pr-faq-answer" style="display:none;margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">Yes. The patient record that clinical staff use is the same one that drives scheduling, eligibility checks, encounter coding, and billing — so information entered once flows through the entire workflow.</p>
+      </div>
+      <!-- Q6 -->
+      <div class="pr-faq-item" onclick="togglePrFaq(5)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(30,13,1,0.12)">
+        <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+          <p style="font-weight:500;font-size:18px;line-height:30.6px;color:#1e0d01">Is patient information kept secure?</p>
+          <span class="pr-faq-icon" style="font-size:22px;color:#1e0d01;flex-shrink:0;margin-left:8px;line-height:30px">+</span>
+        </div>
+        <p class="pr-faq-answer" style="display:none;margin-top:12px;font-weight:400;font-size:16px;line-height:24px;color:rgba(30,13,1,0.6)">FractionEHR is built on HIPAA‑ready infrastructure with encrypted data at rest and in transit. Role‑based permissions control access, and all activity is logged for audit purposes.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CTA BANNER ─────────────────────── top:4675 ── -->
+  <div class="ab" style="top:4675px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
+    <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
+      <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
+        <div style="transform:rotate(90deg);flex:none">
+          <div style="height:1443px;width:416px;position:relative">
+            <img style="position:absolute;inset:0;width:100%;height:100%;object-position:bottom" src="https://www.figma.com/api/mcp/asset/f59b2dfb-b4be-49b9-b00a-585f10adb307.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="position:relative;width:560px;height:251px;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;overflow:clip">
+      <div style="display:flex;flex-direction:column;gap:16px;align-items:center;width:560px">
+        <p style="font-weight:500;font-size:44px;line-height:48.4px;letter-spacing:-1.32px;color:#fff;text-align:center;width:560px">See the patient chart your whole team can work from</p>
+        <p style="font-weight:500;font-size:16px;color:#fff;line-height:24px;text-align:center;width:545px">Book a walkthrough and see how FractionEHR keeps records, scheduling, and billing connected.</p>
+      </div>
+      <div style="display:flex;gap:26px;align-items:flex-start">
+        <div style="position:relative;display:inline-grid;place-items:start">
+          <div style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;cursor:pointer">
+            <span style="font-weight:700;font-size:18px;color:#fff;white-space:nowrap">Get Started</span>
+          </div>
+          <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px;position:relative"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+        </div>
+        <div style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
+          <span style="font-weight:700;font-size:18px;color:#2155b5;white-space:nowrap">Book a Demo</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ─────────────────────────── top:4948 ── -->
+  <!-- Dark background matching landing page pattern -->
+  <div class="ab" style="top:4948px;left:0;width:1920px;height:978px;background:#0d2248"></div>
+  <!-- Footer content — same structure as landing page footer -->
+  <div class="ab" style="left:317px;top:4948px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
+    <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
+      <!-- Brand -->
+      <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
+        <div style="display:flex;flex-direction:column;gap:16px;height:165px;align-items:flex-start;justify-content:center;overflow:clip;width:350px">
+          <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
+            <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
+              <div style="display:inline-grid;place-items:start">
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/0af5059f-5469-46a6-b2a3-e3f630009513.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
+              </div>
+            </div>
+          </div>
+          <p style="font-weight:500;font-size:16px;color:#fafafa;line-height:24px;width:351px">FractionEHR is a managed, OpenEMR‑based cloud EHR and practice management platform for independent practices and clinics.</p>
+        </div>
+        <div style="display:flex;gap:8px;height:36px;align-items:center;overflow:clip;width:168px">
+          <div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div>
+          <div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div>
+          <div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div>
+          <div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div>
+        </div>
+      </div>
+      <!-- Nav columns -->
+      <div style="display:flex;gap:52px;height:529px;align-items:flex-start;font-weight:500;white-space:nowrap;overflow:clip;width:816px">
+        <!-- Products -->
+        <div style="display:flex;flex-direction:column;gap:20px;height:224px;align-items:flex-start;justify-content:center">
+          <p style="font-size:24px;color:#fff;line-height:36px">Products</p>
+          <div style="display:flex;flex-direction:column;gap:12px;height:168px;align-items:flex-start;font-size:16px;line-height:24px">
+            <p onclick="navigate('edi-clearing-house','EDI Clearing House')" class="fl" style="color:#fafafa">EDI Clearing House</p>
+            <p onclick="navigate('practice-mate','Practice Mate')" class="fl" style="color:#fafafa">Practice Mate</p>
+            <p onclick="navigate('ehr-247','EHR 24/7')" class="fl" style="color:#fafafa">EHR 24/7</p>
+            <p style="color:#fafafa;opacity:.5">Insurance Discovery</p>
+          </div>
+        </div>
+        <!-- Solutions -->
+        <div style="display:flex;flex-direction:column;gap:20px;height:515px;align-items:flex-start;justify-content:center">
+          <p style="font-size:24px;color:#fff;line-height:36px">Solutions</p>
+          <div style="display:flex;flex-direction:column;gap:12px;height:468px;align-items:flex-start;justify-content:center;font-size:16px;color:#fafafa;line-height:24px">
+            <p onclick="navigate('patient-records','Patient Records')" class="fl">Patient Records</p>
+            <p onclick="navigate('digital-intake','Digital Intake')" class="fl">Digital Intake &amp; Registration</p>
+            <p onclick="navigate('clinical-notes','Clinical Notes')" class="fl">Clinical Notes &amp; Documentation</p>
+            <p onclick="navigate('labs-orders','Labs &amp; Orders')" class="fl">Labs &amp; Orders</p>
+            <p onclick="navigate('patient-portal','Patient Portal')" class="fl">Patient Portal</p>
+            <p onclick="navigate('role-based-access','Role-Based Access')" class="fl">Role&#8209;Based Access</p>
+            <p onclick="navigate('appointment-scheduling','Appointment Scheduling')" class="fl">Appointment Scheduling</p>
+            <p onclick="navigate('insurance-eligibility','Insurance Eligibility')" class="fl">Insurance Eligibility</p>
+            <p onclick="navigate('eprescribing','ePrescribing')" class="fl">ePrescribing</p>
+            <p onclick="navigate('billing-claims','Billing &amp; Claims')" class="fl">Billing &amp; Claims</p>
+            <p onclick="navigate('reports-analytics','Reports &amp; Analytics')" class="fl">Reports &amp; Analytics</p>
+            <p onclick="navigate('data-migration','Data Migration')" class="fl">Data Migration</p>
+          </div>
+        </div>
+        <!-- Resources -->
+        <div style="display:flex;flex-direction:column;gap:20px;height:224px;align-items:flex-start;justify-content:center">
+          <p style="font-size:24px;color:#fff;line-height:36px">Resources</p>
+          <div style="display:flex;flex-direction:column;gap:12px;height:168px;align-items:flex-start;font-size:16px;color:#fafafa;line-height:24px">
+            <p onclick="navigate('blogs','Blogs')" class="fl">Blogs</p>
+            <p onclick="navigate('whats-new','Whats New')" class="fl">What's New</p>
+            <p onclick="navigate('knowledge-hub','Knowledge Hub')" class="fl">Knowledge Hub</p>
+          </div>
+        </div>
+        <!-- Company -->
+        <div style="display:flex;flex-direction:column;gap:20px;height:224px;align-items:flex-start;justify-content:center">
+          <p style="font-size:24px;color:#fff;line-height:36px">Company</p>
+          <div style="display:flex;flex-direction:column;gap:12px;height:168px;align-items:flex-start;font-size:16px;color:#fafafa;line-height:24px">
+            <p onclick="navigate('company','Our Company')" class="fl">Our Company</p>
+            <p onclick="navigate('contact','Contact Us')" class="fl">Contact Us</p>
+            <p onclick="navigate('pricing','Pricing')" class="fl">Pricing</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div style="border-top:1px solid #f2f4f7;display:flex;height:60px;align-items:center;justify-content:center;padding:18px 20px;width:100%">
+      <p style="font-weight:500;font-size:16px;color:#fff;white-space:nowrap;line-height:24px">© 2026 FractionEHR. All rights reserved.</p>
+    </div>
+  </div>
 </div><!-- /page-patient-records -->
 
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!--  DIGITAL INTAKE & REGISTRATION                              -->
+<!-- ════════════════════════════════════════════════════════════ -->
 <div id="page-digital-intake" class="pg site-page" style="height:5878px;display:none">
 
   <!-- Light grey bg stripe -->
