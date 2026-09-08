@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FractionEHR — Download Site Images</title>
+<style>
+  body { font-family: Inter, sans-serif; background: #0d2248; color: #fff; padding: 40px; max-width: 900px; margin: 0 auto; }
+  h1 { color: #00d9ce; }
+  p { color: #f2f4f7; }
+  .card { background: rgba(255,255,255,.08); border-radius: 12px; padding: 20px; margin: 16px 0; display:flex; gap:20px; align-items:center; }
+  .card img { width:120px; height:80px; object-fit:cover; border-radius:8px; flex-shrink:0; }
+  .info { flex:1 }
+  .info h3 { margin:0 0 4px; font-size:16px; }
+  .info code { font-size:12px; color:#00d9ce; }
+  a.btn { background:#00d9ce; color:#0d2248; font-weight:700; padding:8px 18px; border-radius:30px; text-decoration:none; font-size:14px; white-space:nowrap; }
+  #downloadAll { background:#2155b5; border:none; color:#fff; font-weight:700; padding:14px 32px; border-radius:30px; font-size:16px; cursor:pointer; margin-bottom:32px; }
+  #downloadAll:hover { background:#00d9ce; color:#0d2248; }
+  .note { background:rgba(0,217,206,.1); border:1px solid #00d9ce; border-radius:8px; padding:16px; margin-bottom:32px; color:#f2f4f7; font-size:14px; line-height:1.6; }
+</style>
+</head>
+<body>
+<h1>FractionEHR — Download Site Images</h1>
+<div class="note">
+  <strong>Instructions:</strong><br>
+  1. Click <strong>"Download All"</strong> (images save with their correct filenames automatically)<br>
+  2. Go to <strong>github.com/lavanya539/lavanya</strong> → fractionehrartifact/ → Add file → Upload files<br>
+  3. Drag ALL downloaded files and commit<br>
+  4. Tell Claude "done" and the HTML will be updated automatically
+</div>
+
+<button id="downloadAll" onclick="downloadAll()">⬇ Download All 10 Images</button>
+
+<div id="images"></div>
+
+<script>
+const images = [
+  { url: "https://www.figma.com/api/mcp/asset/36b15c9b-ddcf-4070-b999-1c965a7c735c", filename: "img-hero-bg.jpg", label: "Hero Card Background" },
+  { url: "https://www.figma.com/api/mcp/asset/115e9ed9-aa08-470f-9796-c8764a90582f.png", filename: "img-doctor-photo.png", label: "Hub Section — Doctor Photo" },
+  { url: "https://www.figma.com/api/mcp/asset/7bebea69-ba2d-4477-9941-6a135df26bde", filename: "img-get-paid-faster.jpg", label: "Get Paid Faster — Right Image" },
+  { url: "https://www.figma.com/api/mcp/asset/b1ca8232-68f0-4ede-b42a-0b754b6ef321", filename: "img-zero-server.jpg", label: "Zero Server Maintenance — Right Image" },
+  { url: "https://www.figma.com/api/mcp/asset/8f3f951e-b4d1-4873-96ee-d3faf4def68a", filename: "img-calmer-desk.jpg", label: "Calmer Front Desk — Right Image" },
+  { url: "https://www.figma.com/api/mcp/asset/38722efc-ca65-4f19-8c92-edbdea940d91", filename: "img-four-ways-who.jpg", label: "Four Ways — Who We Help Card" },
+  { url: "https://www.figma.com/api/mcp/asset/b7944520-d6fb-4244-81a8-54a07657038c", filename: "img-four-ways-solutions.jpg", label: "Four Ways — Solutions Card" },
+  { url: "https://www.figma.com/api/mcp/asset/608b21b2-f923-4cbb-82c8-a6ed20993a7e", filename: "img-four-ways-resources.jpg", label: "Four Ways — Resources Card" },
+  { url: "https://www.figma.com/api/mcp/asset/286828fe-034d-4455-abc4-7c5afe0fdd2b.png", filename: "img-cta-banner.png", label: "CTA Banner Background" },
+  { url: "https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c", filename: "img-hub-bg.jpg", label: "Hub Section — Background" },
+];
+
+// Render cards
+const container = document.getElementById('images');
+images.forEach(img => {
+  container.innerHTML += `
+    <div class="card">
+      <img src="${img.url}" onerror="this.style.background='#2155b5'" alt="">
+      <div class="info">
+        <h3>${img.label}</h3>
+        <code>Save as: ${img.filename}</code>
+      </div>
+      <a class="btn" href="${img.url}" download="${img.filename}">Download</a>
+    </div>`;
+});
+
+function downloadAll() {
+  images.forEach((img, i) => {
+    setTimeout(() => {
+      const a = document.createElement('a');
+      a.href = img.url;
+      a.download = img.filename;
+      a.click();
+    }, i * 800);
+  });
+}
+</script>
+</body>
+</html>
