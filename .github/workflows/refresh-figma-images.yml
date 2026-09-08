@@ -1,0 +1,40 @@
+name: Refresh Figma Images
+
+on:
+  schedule:
+    - cron: '0 2 * * 0'   # Every Sunday at 2:00 AM UTC
+  workflow_dispatch:        # Also run manually from GitHub Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Needed to commit downloaded images
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download images from Figma API
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+        run: python3 .github/scripts/refresh_images.py
+
+      - name: Commit and push updated images
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add fractionehrartifact/assets/
+          git add fractionehrartifact/index.html
+          if git diff --staged --quiet; then
+            echo "Nothing changed — all images already up to date."
+          else
+            git commit -m "chore: refresh Figma images [$(date -u +%Y-%m-%d)]"
+            git push
+            echo "Images refreshed and committed successfully."
+          fi

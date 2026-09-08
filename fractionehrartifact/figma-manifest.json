@@ -1,0 +1,137 @@
+[
+  {
+    "nodeId": "888:714",
+    "filename": "assets/home/hero-bg.jpg",
+    "label": "Hero card background",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/36b15c9b-ddcf-4070-b999-1c965a7c735c"]
+  },
+  {
+    "nodeId": "888:1212",
+    "filename": "assets/home/hub-doctor.jpg",
+    "label": "Hub — doctor photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/115e9ed9-aa08-470f-9796-c8764a90582f.png"]
+  },
+  {
+    "nodeId": "888:808",
+    "filename": "assets/home/hub-logo.jpg",
+    "label": "Hub — FractionEHR 3D logo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c"]
+  },
+  {
+    "nodeId": "888:883",
+    "filename": "assets/home/get-paid-faster.jpg",
+    "label": "Get Paid Faster — right photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/7bebea69-ba2d-4477-9941-6a135df26bde"]
+  },
+  {
+    "nodeId": "888:968",
+    "filename": "assets/home/zero-server.jpg",
+    "label": "Zero Server Maintenance — left photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/b1ca8232-68f0-4ede-b42a-0b754b6ef321"]
+  },
+  {
+    "nodeId": "888:929",
+    "filename": "assets/home/calmer-desk.jpg",
+    "label": "Calmer Front Desk — right photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/8f3f951e-b4d1-4873-96ee-d3faf4def68a"]
+  },
+  {
+    "nodeId": "888:1008",
+    "filename": "assets/home/four-ways-who-we-help.jpg",
+    "label": "Four Ways — Who We Help card bg",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/38722efc-ca65-4f19-8c92-edbdea940d91"]
+  },
+  {
+    "nodeId": "888:1006",
+    "filename": "assets/home/four-ways-solutions.jpg",
+    "label": "Four Ways — Solutions card bg",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/b7944520-d6fb-4244-81a8-54a07657038c"]
+  },
+  {
+    "nodeId": "888:1010",
+    "filename": "assets/home/four-ways-resources.jpg",
+    "label": "Four Ways — Resources card bg",
+    "oldUrls": [
+      "https://www.figma.com/api/mcp/asset/608b21b2-f923-4cbb-82c8-a6ed20993a7e",
+      "https://www.figma.com/api/mcp/asset/9d143519-4507-47de-a0f8-112d815ad6cc.png"
+    ]
+  },
+  {
+    "nodeId": "888:930",
+    "filename": "assets/home/cta-banner-bg.jpg",
+    "label": "CTA banner background",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/286828fe-034d-4455-abc4-7c5afe0fdd2b.png"]
+  },
+  {
+    "nodeId": "582:2244",
+    "filename": "assets/patient-records/hero.jpg",
+    "label": "Patient Records — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/ac61f9c2-2b72-4809-897b-f45ccf4cdcd1.png"]
+  },
+  {
+    "nodeId": "582:2269",
+    "filename": "assets/patient-records/dark-section.jpg",
+    "label": "Patient Records — dark screenshot section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/5c87baeb-0e5e-485e-804b-390d0e72538e.png"]
+  },
+  {
+    "nodeId": "589:2862",
+    "filename": "assets/patient-portal/hero.jpg",
+    "label": "Patient Portal — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/0a347b9c-3954-43ef-bf40-022d04622f7b.png"]
+  },
+  {
+    "nodeId": "589:2791",
+    "filename": "assets/patient-portal/dark-section.jpg",
+    "label": "Patient Portal — dark section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/471b9b4a-d940-4c0b-9d97-e7acee6ab8a3.png"]
+  },
+  {
+    "nodeId": "591:3295",
+    "filename": "assets/role-based-access/hero.jpg",
+    "label": "Role-Based Access — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/93efee3c-c351-41fd-8a57-42ada127cb6b.png"]
+  },
+  {
+    "nodeId": "591:3320",
+    "filename": "assets/role-based-access/dark-section.jpg",
+    "label": "Role-Based Access — dark section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/2f445559-bef1-4093-9f5d-7e36b9f4bd4f.png"]
+  },
+  {
+    "nodeId": "591:3805",
+    "filename": "assets/appointment-scheduling/hero.jpg",
+    "label": "Appointment Scheduling — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/c2acf610-d298-4530-8981-3cc02cdf5a9c.png"]
+  },
+  {
+    "nodeId": "591:3830",
+    "filename": "assets/appointment-scheduling/dark-section.jpg",
+    "label": "Appointment Scheduling — dark section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/bdd59a3a-6003-4d19-ba15-f22cfd364906.png"]
+  },
+  {
+    "nodeId": "591:4277",
+    "filename": "assets/insurance-eligibility/hero.jpg",
+    "label": "Insurance Eligibility — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/828c8993-9f76-48f1-acb6-4824aec26a15.png"]
+  },
+  {
+    "nodeId": "591:4392",
+    "filename": "assets/insurance-eligibility/dark-section.jpg",
+    "label": "Insurance Eligibility — dark section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/1b18f29e-2f1f-4024-a7b0-2153e59b8de2.png"]
+  },
+  {
+    "nodeId": "591:4839",
+    "filename": "assets/eprescribing/hero.jpg",
+    "label": "ePrescribing — hero photo",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/da6ce1a8-7143-4b84-8b16-d6f2485fd75c.png"]
+  },
+  {
+    "nodeId": "591:4902",
+    "filename": "assets/eprescribing/dark-section.jpg",
+    "label": "ePrescribing — dark section",
+    "oldUrls": ["https://www.figma.com/api/mcp/asset/cd9f1005-836e-49c6-a28d-2fe778f7f9c6.png"]
+  }
+]
