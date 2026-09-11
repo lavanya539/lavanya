@@ -48,7 +48,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
       <!-- Logo -->
       <a href="javascript:void(0)" onclick="navigate('home')" style="display:flex;align-items:center;gap:12px;text-decoration:none;flex-shrink:0;width:240px">
-        <img style="width:46px;height:46px;flex-shrink:0" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt="FractionEHR">
+        <img style="width:46px;height:46px;flex-shrink:0" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt="FractionEHR">
         <span style="font-weight:600;font-size:30.5px;white-space:nowrap">
           <span style="color:#222">Fraction</span><span style="background:linear-gradient(90deg,#2155b5 13.5%,#00d9ce 110%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">EHR</span>
         </span>
@@ -129,13 +129,13 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
     </div>
 
     <!-- RIGHT: Contact Us, Login, Sign Up -->
-    <div style="display:flex;gap:8px;align-items:center;flex-shrink:0">
-      <a href="javascript:void(0)" onclick="navigate('contact','Contact Us')" style="display:flex;gap:8px;align-items:center;justify-content:center;height:60px;padding:0 20px;border-radius:120px;text-decoration:none;cursor:pointer;width:142px" onmouseover="this.style.background='#f5f8ff'" onmouseout="this.style.background='none'">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+    <div style="display:flex;gap:16px;align-items:center;flex-shrink:0">
+      <a href="javascript:void(0)" onclick="navigate('contact','Contact Us')" style="display:flex;gap:6px;align-items:center;justify-content:center;padding:14px 25px;border-radius:120px;text-decoration:none;cursor:pointer;width:173px" onmouseover="this.style.background='#f5f8ff'" onmouseout="this.style.background='none'">
+        <img src="https://www.figma.com/api/mcp/asset/be4ba14f-70b2-43d6-992c-d69eb934d6aa.svg" alt="" style="width:32px;height:32px;flex-shrink:0">
         <span style="font-size:16.5px;color:#222;white-space:nowrap">Contact Us</span>
       </a>
-      <a href="javascript:void(0)" style="display:flex;gap:8px;align-items:center;justify-content:center;height:60px;padding:0 20px;border-radius:120px;text-decoration:none;cursor:pointer;width:96px" onmouseover="this.style.background='#f5f8ff'" onmouseout="this.style.background='none'">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+      <a href="javascript:void(0)" style="display:flex;gap:6px;align-items:center;justify-content:center;padding:14px 20px;border-radius:120px;text-decoration:none;cursor:pointer;width:140px" onmouseover="this.style.background='#f5f8ff'" onmouseout="this.style.background='none'">
+        <img src="https://www.figma.com/api/mcp/asset/711eb5c7-ae95-431a-b20c-a4ba78ecbe45.svg" alt="" style="width:32px;height:32px;flex-shrink:0">
         <span style="font-size:16.5px;color:#222;white-space:nowrap">Login</span>
       </a>
       <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;box-shadow:0 2px 6px rgba(0,0,0,.25);height:52px;width:150px;border-radius:120px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
@@ -239,55 +239,127 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 <p class="ab" style="left:264px;top:1356px;font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap;line-height:1.2">THE FULL WORKFLOW</p>
 <p class="ab" style="left:240px;top:1415px;width:811px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248">From Operational Complexity to <span class="g2">Connected Care</span></p>
 <p class="ab" style="left:1098px;top:1452px;width:582px;font-size:16.5px;line-height:28.05px;color:#4b5568;text-align:right">Scroll through a single visit exactly as it moves through eMedEMR. The same registration‑to‑payment lifecycle behind OpenEMR, now running as one managed pipeline instead of six disconnected systems.</p>
-<div class="ab" style="background:#d9d9d9;border-radius:20px;height:595px;left:240px;top:1735px;width:660px"></div>
-<div class="ab" style="left:1002px;top:1767px;width:678px;display:flex;flex-direction:column;gap:24px">
-  <!-- Step 1 -->
-  <div style="display:flex;gap:32px;align-items:center;width:678px">
+<div id="scrolly-card" class="ab" style="left:240px;top:1735px;width:660px;height:595px;border-radius:20px;background:#eae9ed;overflow:hidden">
+  <img class="scrolly-img" data-step="0" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:1;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/36d517c6-c567-4aa8-8c9b-49b8ad470bb0">
+  <img class="scrolly-img" data-step="1" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:0;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/8d07cdcb-52b6-459d-802a-bad04bb2252b">
+  <img class="scrolly-img" data-step="2" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:0;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/58713686-79cc-4d40-a962-d575966beafa">
+  <img class="scrolly-img" data-step="3" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:0;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/68a26a6b-e7f7-4e18-a956-98c6e515c720">
+  <img class="scrolly-img" data-step="4" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:0;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/f2075836-9bfb-41e1-9682-209f9672e2dc">
+  <img class="scrolly-img" data-step="5" style="position:absolute;left:32px;top:34px;width:588px;height:548px;object-fit:cover;border-radius:12px;opacity:0;transition:opacity 0.4s ease" src="https://www.figma.com/api/mcp/asset/0b1573a8-6348-4f7b-835e-f69a9826788b">
+</div>
+<div id="scrolly-steps" class="ab" style="left:1002px;top:1767px;width:678px">
+  <!-- Group 0: Steps 1-3 -->
+  <div id="scrolly-group-0" style="display:flex;flex-direction:column;gap:24px">
+  <div class="scrolly-step" data-step="0" onclick="scrollyClickStep(0)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
     <div style="display:inline-grid;place-items:start;flex-shrink:0">
       <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
-      <div style="grid-column:1;grid-row:1;background:#2155b5;height:115px;width:8px;border-radius:4px"></div>
+  <div class="step-fill" style="grid-column:1;grid-row:1;background:#2155b5;height:0px;width:8px;border-radius:4px"></div>
     </div>
     <div style="display:flex;gap:42px;align-items:center;width:638px">
       <div style="background:#66e8e2;width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#0d2248"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm-2 13l-4-4 1.4-1.4L12 12.2l6.6-6.6L20 7l-8 8zm2-9V3.5L18.5 8H14z"/></svg>
+        <img src="https://www.figma.com/api/mcp/asset/56c23989-6871-4ff3-8d98-428242648eac.svg" alt="" style="width:40px;height:40px">
       </div>
       <div style="position:relative;height:144px;width:470px">
         <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 1 of 6</p>
-        <p style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#0d2248;line-height:32.4px;letter-spacing:-.6px">Registration</p>
-        <p style="position:absolute;top:72px;left:0;font-size:16px;color:#4b5568;line-height:24px;letter-spacing:-.32px;width:522px">Name, date of birth, address, phone, email, emergency contact and insurance captured in one guided form. No re‑entry later in the process.</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#0d2248;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">Registration</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#4b5568;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">Name, date of birth, address, phone, email, emergency contact and insurance captured in one guided form. No re&#8209;entry later in the process.</p>
       </div>
     </div>
   </div>
-  <!-- Step 2 -->
-  <div style="display:flex;gap:32px;align-items:center;width:681px">
-    <div style="background:#d9d9d9;height:160px;width:8px;border-radius:4px;flex-shrink:0"></div>
-    <div style="display:flex;gap:43px;align-items:center;width:641px">
+  <div class="scrolly-step" data-step="1" onclick="scrollyClickStep(1)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
+    <div style="display:inline-grid;place-items:start;flex-shrink:0">
+      <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
+    </div>
+    <div style="display:flex;gap:42px;align-items:center;width:638px">
       <div style="width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
-        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#0d2248"><path d="M20 3h-1V1h-2v2H7V1H5v2H4C2.9 3 2 3.9 2 5v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H4V8h16v13zM6 10h5v5H6z"/></svg>
+        <img src="https://www.figma.com/api/mcp/asset/98f68b29-9764-404e-a778-642f44effad2.svg" alt="" style="width:40px;height:40px">
       </div>
       <div style="position:relative;height:144px;width:470px">
         <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 2 of 6</p>
-        <p style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#0d2248;line-height:32.4px;letter-spacing:-.6px">Scheduling &amp; check‑in</p>
-        <p style="position:absolute;top:72px;left:0;font-size:16px;color:#4b5568;line-height:24px;letter-spacing:-.32px;width:528px">The visit is booked to the provider's calendar, identity is verified on arrival, and insurance eligibility is confirmed before the patient sits down.</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#b0b8c5;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">Scheduling &amp; check&#8209;in</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#b0b8c5;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">The visit is booked to the provider&#8217;s calendar, identity is verified on arrival, and insurance eligibility is confirmed before the patient sits down.</p>
       </div>
     </div>
   </div>
-  <!-- Step 3 -->
-  <div style="display:flex;gap:32px;align-items:center;width:681px">
-    <div style="background:#d9d9d9;height:160px;width:8px;border-radius:4px;flex-shrink:0"></div>
-    <div style="display:flex;gap:43px;align-items:center;width:641px">
+  <div class="scrolly-step" data-step="2" onclick="scrollyClickStep(2)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
+    <div style="display:inline-grid;place-items:start;flex-shrink:0">
+      <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
+    </div>
+    <div style="display:flex;gap:42px;align-items:center;width:638px">
       <div style="width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
-        <div style="overflow:clip;width:40px;height:40px;position:relative">
-          <div style="position:absolute;inset:7.5% 7.5% 5% 5%">
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4M8 12h.01M8 16h.01"/></svg>
-          </div>
-        </div>
+        <img src="https://www.figma.com/api/mcp/asset/d08279cc-bba2-445d-9e25-b0441199a3cd.svg" alt="" style="width:40px;height:40px">
       </div>
       <div style="position:relative;height:144px;width:470px">
         <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 3 of 6</p>
-        <p style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#0d2248;line-height:32.4px;letter-spacing:-.6px">Clinical encounter</p>
-        <p style="position:absolute;top:72px;left:0;font-size:16px;color:#4b5568;line-height:24px;letter-spacing:-.32px;width:525px">Chief complaint, history of present illness, examination findings, assessment, plan, medications and follow‑up. Documented in one structured note.</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#b0b8c5;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">Clinical encounter</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#b0b8c5;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">Chief complaint, history of present illness, examination findings, assessment, plan, medications and follow&#8209;up. Documented in one structured note.</p>
       </div>
+    </div>
+  </div>
+  </div>
+  <!-- Group 1: Steps 4-6 -->
+  <div id="scrolly-group-1" style="display:none;flex-direction:column;gap:24px">
+  <div class="scrolly-step" data-step="3" onclick="scrollyClickStep(3)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
+    <div style="display:inline-grid;place-items:start;flex-shrink:0">
+      <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
+    </div>
+    <div style="display:flex;gap:42px;align-items:center;width:638px">
+      <div style="width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
+        <img src="https://www.figma.com/api/mcp/asset/1bec23cf-32c3-41ca-b00b-5613b11938b7.svg" alt="" style="width:40px;height:40px">
+      </div>
+      <div style="position:relative;height:144px;width:470px">
+        <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 4 of 6</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#b0b8c5;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">ICD/CPT coding</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#b0b8c5;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">Diagnoses are assigned ICD&#8209;10 codes and procedures CPT codes inside the encounter. The coded claim is checked against payer rules before it leaves the practice.</p>
+      </div>
+    </div>
+  </div>
+  <div class="scrolly-step" data-step="4" onclick="scrollyClickStep(4)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
+    <div style="display:inline-grid;place-items:start;flex-shrink:0">
+      <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
+    </div>
+    <div style="display:flex;gap:42px;align-items:center;width:638px">
+      <div style="width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
+        <img src="https://www.figma.com/api/mcp/asset/4a8c0c02-a7e9-495a-9ff5-f7ded98ef8b8.svg" alt="" style="width:40px;height:40px">
+      </div>
+      <div style="position:relative;height:144px;width:470px">
+        <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 5 of 6</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#b0b8c5;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">Claim submission</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#b0b8c5;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">The assembled claim transmits to the clearinghouse, which scrubs it for errors and forwards it to the payer. Rejections are flagged and routed back for correction.</p>
+      </div>
+    </div>
+  </div>
+  <div class="scrolly-step" data-step="5" onclick="scrollyClickStep(5)"
+       style="display:flex;gap:32px;align-items:center;width:678px;cursor:pointer">
+    <div style="display:inline-grid;place-items:start;flex-shrink:0">
+      <div style="grid-column:1;grid-row:1;background:#d9d9d9;height:160px;width:8px;border-radius:4px"></div>
+    </div>
+    <div style="display:flex;gap:42px;align-items:center;width:638px">
+      <div style="width:70px;height:70px;border-radius:10px;display:flex;align-items:flex-start;padding:15px;flex-shrink:0">
+        <img src="https://www.figma.com/api/mcp/asset/2fede4bd-13c9-4922-8aba-fad18c4fe08d.svg" alt="" style="width:40px;height:40px">
+      </div>
+      <div style="position:relative;height:144px;width:470px">
+        <p style="position:absolute;top:0;left:0;font-weight:500;font-size:13px;color:#00aea5;line-height:1.2">Step 6 of 6</p>
+        <p class="step-heading" style="position:absolute;top:26px;left:0;font-weight:600;font-size:32px;color:#b0b8c5;line-height:32.4px;letter-spacing:-.6px;transition:color 0.3s">Payment &amp; reporting</p>
+        <p class="step-body" style="position:absolute;top:72px;left:0;font-size:16px;color:#b0b8c5;line-height:24px;letter-spacing:-.32px;width:522px;transition:color 0.3s">Payments are matched and posted, patient statements go out for any balance, and every step becomes a report your team can act on.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Step group navigation -->
+  <div style="display:flex;justify-content:flex-end;gap:12px;margin-top:24px;padding-right:4px">
+    <div id="scrolly-prev-btn" onclick="scrollyPageNav(-1)"
+         style="width:68px;height:68px;border-radius:50%;border:2px solid #e1e7f0;display:flex;align-items:center;justify-content:center;cursor:pointer;opacity:0.3;pointer-events:none;transition:opacity 0.25s;flex-shrink:0">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+    </div>
+    <div id="scrolly-next-btn" onclick="scrollyPageNav(1)"
+         style="width:68px;height:68px;border-radius:50%;background:#2155b5;display:flex;align-items:center;justify-content:center;cursor:pointer;transition:opacity 0.25s;flex-shrink:0">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
     </div>
   </div>
 </div>
@@ -310,7 +382,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 <div class="ab" style="background:rgba(255,255,255,.2);height:108px;left:1079px;top:3160px;width:494px;border-radius:176px;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>
 <div class="ab" style="left:1127px;top:3184px;display:flex;gap:12px;align-items:center">
   <div style="background:#fff;width:60px;height:60px;border-radius:10px;display:flex;align-items:flex-start;padding:10px;flex-shrink:0"><img style="width:40px;height:40px" src="https://www.figma.com/api/mcp/asset/6e1abacb-1e63-44f9-9467-eca80c22379b.svg" alt=""></div>
-  <div style="display:flex;flex-direction:column;gap:5px;width:326px"><p style="font-weight:700;font-size:22px;color:#fff;line-height:28px">Group &amp; Multi‑Provider Clinics</p><p style="font-size:18px;color:#f2f4f7;line-height:1.2">Standardized across providers</p></div>
+  <div style="display:flex;flex-direction:column;gap:5px;width:326px"><p style="font-weight:700;font-size:22px;color:#fff;line-height:28px">Group &amp; Multi&#8209;Provider Clinics</p><p style="font-size:18px;color:#f2f4f7;line-height:1.2">Standardized across providers</p></div>
 </div>
 <div class="ab" style="background:rgba(255,255,255,.2);height:108px;left:1246px;top:3573px;width:434px;border-radius:176px;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>
 <div class="ab" style="left:1294px;top:3597px;display:flex;gap:12px;align-items:center">
@@ -320,7 +392,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 <div class="ab" style="background:rgba(255,255,255,.2);height:108px;left:1098px;top:3945px;width:433px;border-radius:176px;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>
 <div class="ab" style="left:1146px;top:3969px;display:flex;gap:12px;align-items:center">
   <div style="background:#fff;width:60px;height:60px;border-radius:10px;display:flex;align-items:flex-start;padding:10px;flex-shrink:0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40"><defs><linearGradient id="smile-grad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2155b5"/><stop offset="100%" stop-color="#00d9ce"/></linearGradient></defs><g fill="none"><g clip-path="url(#smile-clip2)"><path fill="url(#smile-grad)" fill-rule="evenodd" d="M.25 12C.25 5.51 5.51.25 12 .25S23.75 5.51 23.75 12S18.49 23.75 12 23.75S.25 18.49.25 12M9 11.25c.575 0 .894-.447 1.024-.707c.153-.306.226-.676.226-1.043s-.073-.737-.226-1.043c-.13-.26-.449-.707-1.024-.707s-.894.447-1.024.707A2.4 2.4 0 0 0 7.75 9.5c0 .367.073.737.226 1.043c.13.26.449.707 1.024.707M7.55 14.4a.75.75 0 0 1 1.05.15a4.24 4.24 0 0 0 3.4 1.7c1.39 0 2.624-.667 3.4-1.7a.75.75 0 1 1 1.2.9a5.74 5.74 0 0 1-4.6 2.3a5.74 5.74 0 0 1-4.6-2.3a.75.75 0 0 1 .15-1.05m8.474-3.857c-.13.26-.449.707-1.024.707s-.894-.447-1.024-.707A2.4 2.4 0 0 1 13.75 9.5c0-.367.073-.737.226-1.043c.13-.26.449-.707 1.024-.707s.894.447 1.024.707c.153.306.226.676.226 1.043s-.073.737-.226 1.043" clip-rule="evenodd"/></g><defs><clipPath id="smile-clip2"><path fill="white" d="M0 0h24v24H0z"/></clipPath></defs></g></svg></div>
-  <div style="display:flex;flex-direction:column;gap:5px;width:265px"><p style="font-weight:700;font-size:22px;color:#fff;line-height:28px;white-space:nowrap">Care-specific workflows</p><p style="font-size:18px;color:#f2f4f7;line-height:1.2">Multi‑client claims &amp; A/R</p></div>
+  <div style="display:flex;flex-direction:column;gap:5px;width:265px"><p style="font-weight:700;font-size:22px;color:#fff;line-height:28px;white-space:nowrap">Care-specific workflows</p><p style="font-size:18px;color:#f2f4f7;line-height:1.2">Multi&#8209;client claims &amp; A/R</p></div>
 </div>
 <div class="ab" style="background:rgba(255,255,255,.2);height:108px;left:445px;top:3940px;width:386px;border-radius:176px;box-shadow:0 4px 12px rgba(0,0,0,.25)"></div>
 <div class="ab" style="left:493px;top:3964px;display:flex;gap:12px;align-items:center">
@@ -332,7 +404,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <div style="background:#fff;width:60px;height:60px;border-radius:10px;display:flex;align-items:flex-start;padding:10px;flex-shrink:0"><img style="width:40px;height:40px" src="https://www.figma.com/api/mcp/asset/b8321dfa-73ab-4bc4-8614-6dda0c8a23ea.svg" alt=""></div>
   <div style="display:flex;flex-direction:column;gap:5px;width:242px;overflow:hidden"><p style="font-weight:700;font-size:22px;color:#fff;line-height:28px">Primary &amp; Family Care</p><p style="font-size:18px;color:#f2f4f7;line-height:1.2">Recurring, longitudinal care</p></div>
 </div>
-
 <!-- ═══ SECURITY & COMPLIANCE ═══ -->
 <div class="ab" style="background:#f2f4f7;border:1px solid #2155b5;height:39px;left:240px;top:4453px;width:211px;border-radius:60px"></div>
 <p class="ab" style="left:264px;top:4465px;font-weight:700;font-size:12.5px;color:#0d2248;white-space:nowrap;line-height:1.2">SECURITY &amp; COMPLIANCE</p>
@@ -412,7 +483,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
       <p style="grid-column:1;grid-row:1;margin-left:24px;margin-top:12px;font-weight:700;font-size:12.5px;color:#0d2248;white-space:nowrap;line-height:1.2">REVENUE CYCLE MANAGEMENT</p>
     </div>
     <div style="display:flex;flex-direction:column;gap:32px">
-      <p style="font-weight:500;font-size:74px;color:#0d2248;line-height:80px;letter-spacing:-3px">Get paid <span class="g3">faster</span></p>
+      <p style="font-weight:500;font-size:74px;color:#0d2248;line-height:80px;letter-spacing:-3px">Get Paid <span class="g3">Faster</span></p>
       <p style="font-size:16.5px;color:#4b5568;line-height:28.05px;width:582px">Reduce denials, resolve claim issues and improve payment speed. All within a single, integrated billing and clearinghouse platform.</p>
     </div>
   </div>
@@ -499,7 +570,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
       <p style="grid-column:1;grid-row:1;margin-left:24px;margin-top:12px;font-weight:700;font-size:12.5px;color:#0d2248;white-space:nowrap;line-height:1.2">REVENUE CYCLE MANAGEMENT</p>
     </div>
     <div style="display:flex;flex-direction:column;gap:32px">
-      <p style="font-weight:500;font-size:74px;color:#0d2248;line-height:80px;letter-spacing:-3px">A calmer <span class="g2">front desk</span></p>
+      <p style="font-weight:500;font-size:74px;color:#0d2248;line-height:80px;letter-spacing:-3px">A Calmer <span class="g2">Front Desk</span></p>
       <p style="font-size:16.5px;color:#4b5568;line-height:28.05px;width:582px">Registration, scheduling and check‑in in one calendar‑driven flow, so your front desk captures everything needed before the visit even starts.</p>
     </div>
   </div>
@@ -617,7 +688,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
       </div>
     </div>
     <p style="font-weight:500;font-size:64px;color:#14204d;line-height:74px;letter-spacing:-3.5px">Frequently Asked <span class="g6">Questions</span></p>
-    <p style="font-weight:500;font-size:16px;color:rgba(30,13,1,.6);line-height:24px;width:350px">Answers about how the patient record works across your practice.</p>
+    <p style="font-weight:500;font-size:16px;color:rgba(30,13,1,.6);line-height:24px;width:350px">From setup to support, here are the answers you need.</p>
   </div>
   <div style="display:flex;gap:26px;align-items:flex-start">
     <div style="position:relative;display:inline-grid;place-items:start">
@@ -711,7 +782,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
         <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
           <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
             <div style="display:inline-grid;place-items:start">
-              <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+              <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
               <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
             </div>
           </div>
@@ -1110,6 +1181,8 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA BANNER ─────────────────────── top:4675 ── -->
+  <div class="ab" style="top:5286px;left:0;width:1920px;height:978px;background:#0d2248"></div>
+
   <div class="ab" style="top:4675px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -1141,7 +1214,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
   <!-- ── FOOTER ─────────────────────────── top:4948 ── -->
   <!-- Dark background matching landing page pattern -->
-  <div class="ab" style="top:4948px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <!-- Footer content — same structure as landing page footer -->
   <div class="ab" style="left:317px;top:4948px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
@@ -1151,7 +1223,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -1469,6 +1541,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA BANNER ─────────────────────── top:4627 ── -->
+  <div class="ab" style="top:4900px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4627px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -1499,7 +1572,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ─────────────────────────── top:4900 ── -->
-  <div class="ab" style="top:4900px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4900px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -1507,7 +1579,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -1819,6 +1891,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4627 -->
+  <div class="ab" style="top:4900px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4627px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -1849,7 +1922,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4900 -->
-  <div class="ab" style="top:4900px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4900px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -1857,7 +1929,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -2165,6 +2237,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4667 -->
+  <div class="ab" style="top:4940px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4667px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -2195,7 +2268,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4940 -->
-  <div class="ab" style="top:4940px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4940px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -2203,7 +2275,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -2511,6 +2583,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4667 -->
+  <div class="ab" style="top:4940px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4667px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -2541,7 +2614,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4940 -->
-  <div class="ab" style="top:4940px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4940px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -2549,7 +2621,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -2857,6 +2929,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4691 -->
+  <div class="ab" style="top:4964px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4691px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -2887,7 +2960,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4964 -->
-  <div class="ab" style="top:4964px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4964px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -2895,7 +2967,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -3203,6 +3275,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4728 -->
+  <div class="ab" style="top:5001px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4728px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -3233,7 +3306,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:5001 -->
-  <div class="ab" style="top:5001px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:5001px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -3241,7 +3313,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -3549,6 +3621,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4728 -->
+  <div class="ab" style="top:5001px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4728px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -3579,7 +3652,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:5001 -->
-  <div class="ab" style="top:5001px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:5001px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -3587,7 +3659,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -3895,6 +3967,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4662 -->
+  <div class="ab" style="top:4935px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4662px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -3925,7 +3998,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4935 -->
-  <div class="ab" style="top:4935px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4935px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -3933,7 +4005,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -4241,6 +4313,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4669 -->
+  <div class="ab" style="top:4942px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4669px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -4271,7 +4344,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4942 -->
-  <div class="ab" style="top:4942px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4942px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -4279,7 +4351,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -4587,6 +4659,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4730  (wider heading w:690) -->
+  <div class="ab" style="top:5003px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4730px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -4617,7 +4690,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:5003 -->
-  <div class="ab" style="top:5003px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:5003px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -4625,7 +4697,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -4933,6 +5005,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:4706  (wider heading w:690) -->
+  <div class="ab" style="top:4979px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4706px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -4963,7 +5036,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4979 -->
-  <div class="ab" style="top:4979px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4979px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -4971,7 +5043,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -5356,6 +5428,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA BANNER ── top:4336 -->
+  <div class="ab" style="top:4609px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4336px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -5380,7 +5453,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:4609 -->
-  <div class="ab" style="top:4609px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:4609px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -5454,7 +5526,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
 </div><!-- /page-contact -->
 
-<div id="page-edi-clearing-house" class="pg site-page" style="height:7384px;display:none">
+<div id="page-edi-clearing-house" class="pg site-page" style="height:7844px;display:none">
 
   <!-- ── HERO GRADIENT BG ── -->
   <div class="ab" style="background:linear-gradient(90.7deg,#14204d 0.24%,#2155b5 46.88%,#00d9ce 93.53%);height:750px;left:50%;transform:translateX(-50%);top:0;width:1920px"></div>
@@ -5489,24 +5561,24 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   ══════════════════════════════════════════════════════════ -->
 
   <!-- Badge "WHY IT MATTERS" left:240 top:950 -->
-  <div class="ab" style="left:240px;top:950px;width:158px;height:39px;background:#fff;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
+  <div class="ab" data-stick-sec="edi" style="left:240px;top:950px;width:158px;height:39px;background:#fff;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
     <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">WHY IT MATTERS</span>
   </div>
 
   <!-- Heading "A Clearer Route from Coverage to Payment" left:240 top:1021 -->
-  <p class="ab" style="left:240px;top:1021px;width:569px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248">A Clearer Route from <span style="background:linear-gradient(to right,#2155b5,#00d9ce);-webkit-background-clip:text;background-clip:text;color:transparent">Coverage to Payment</span></p>
+  <p class="ab" data-stick-sec="edi" style="left:240px;top:1021px;width:569px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248">A Clearer Route from <span style="background:linear-gradient(to right,#2155b5,#00d9ce);-webkit-background-clip:text;background-clip:text;color:transparent">Coverage to Payment</span></p>
 
   <!-- Para 1 left:240 top:1303 -->
-  <p class="ab" style="left:240px;top:1303px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Claims processing becomes harder when eligibility, claim submission, payer responses, and remittance information are managed through separate systems.</p>
+  <p class="ab" data-stick-sec="edi" style="left:240px;top:1303px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Claims processing becomes harder when eligibility, claim submission, payer responses, and remittance information are managed through separate systems.</p>
 
   <!-- Para 2 left:240 top:1400 -->
-  <p class="ab" style="left:240px;top:1400px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">eMedEMR Clearinghouse brings these activities together, helping your team reduce manual work and respond to claim issues earlier.</p>
+  <p class="ab" data-stick-sec="edi" style="left:240px;top:1400px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">eMedEMR Clearinghouse brings these activities together, helping your team reduce manual work and respond to claim issues earlier.</p>
 
   <!-- Numbered cards -->
   <!-- Card 01 -->
-  <div class="ab" style="left:929px;top:1101px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="left:929px;top:1433px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
-  <div class="ab" style="left:973px;top:1141px;width:654px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="edi-c1" style="z-index:1;left:929px;top:1101px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="edi-c1" style="z-index:1;left:929px;top:1433px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
+  <div class="ab" data-stack-card="edi-c1" style="z-index:1;left:973px;top:1141px;width:654px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">01</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Reduce Eligibility Uncertainty</p>
@@ -5514,9 +5586,9 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
     </div>
   </div>
   <!-- Card 02 -->
-  <div class="ab" style="left:929px;top:1467px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="left:929px;top:1799px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
-  <div class="ab" style="left:973px;top:1507px;width:654px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="edi-c2" style="opacity:0;z-index:2;left:929px;top:1467px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="edi-c2" style="opacity:0;z-index:2;left:929px;top:1799px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
+  <div class="ab" data-stack-card="edi-c2" style="opacity:0;z-index:2;left:973px;top:1507px;width:654px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">02</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Identify Submission Issues Earlier</p>
@@ -5524,9 +5596,9 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
     </div>
   </div>
   <!-- Card 03 -->
-  <div class="ab" style="left:929px;top:1841px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="left:929px;top:2173px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
-  <div class="ab" style="left:973px;top:1881px;width:654px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="edi-c3" style="opacity:0;z-index:3;left:929px;top:1841px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="edi-c3" style="opacity:0;z-index:3;left:929px;top:2173px;width:751px;height:12px;background:linear-gradient(to right,#2155b5,#0f9dc3 54.808%,#00d9ce)"></div>
+  <div class="ab" data-stack-card="edi-c3" style="opacity:0;z-index:3;left:973px;top:1881px;width:654px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">03</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Improve Claim Follow&#8209;Up</p>
@@ -5539,90 +5611,90 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   ══════════════════════════════════════════════════════════ -->
 
   <!-- Dark navy bg top:2493 h:2106 -->
-  <div class="ab" style="background:#0d2248;height:2106px;left:50%;transform:translateX(-50%);top:2493px;width:1920px"></div>
+  <div class="ab" style="background:#0d2248;height:2106px;left:50%;transform:translateX(-50%);top:2953px;width:1920px"></div>
 
   <!-- Badge "WHY EMEDEMR CLEARINGHOUSE?" centered top:2613 -->
-  <div class="ab" style="left:834px;top:2613px;width:264px;height:39px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
+  <div class="ab" style="left:834px;top:3073px;width:264px;height:39px;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
     <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">WHY EMEDEMR CLEARINGHOUSE?</span>
   </div>
 
   <!-- Heading "Six reasons..." top:2684 centered -->
-  <p class="ab" style="left:50%;transform:translateX(calc(-50% + 6.5px));top:2684px;width:903px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#fff;text-align:center">Six reasons billing teams stay <span style="color:#00d9ce">connected here</span></p>
+  <p class="ab" style="left:50%;transform:translateX(calc(-50% + 6.5px));top:3144px;width:903px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#fff;text-align:center">Six reasons billing teams stay <span style="color:#00d9ce">connected here</span></p>
 
   <!-- bg line (subtle dashed, 21px wide centered at x=962) -->
-  <div class="ab" style="top:2921px;left:961px;width:2px;height:1500px;background:rgba(255,255,255,0.1)"></div>
+  <div class="ab" style="top:3381px;left:961px;width:2px;height:1500px;background:rgba(255,255,255,0.1)"></div>
 
   <!-- light teal gradient top:2928 h:83 -->
-  <div class="ab" style="top:2928px;left:960px;width:4px;height:83px;background:linear-gradient(180deg,rgba(0,217,206,0) 0%,#00d9ce 100%);border-radius:2px"></div>
+  <div class="ab" style="top:3388px;left:960px;width:4px;height:83px;background:linear-gradient(180deg,rgba(0,217,206,0) 0%,#00d9ce 100%);border-radius:2px"></div>
 
   <!-- REASON 1 -->
-  <div class="ab" style="top:3011px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3471px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(0,217,206,0.15)"/><circle cx="60" cy="60" r="52" fill="#00d9ce"/></svg>
   </div>
-  <div class="ab" style="top:3041px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:3501px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3v4h4l-4-4zM5 3H4c-.55 0-1 .45-1 1v16c0 .55.45 1 1 1h11l5-5V4c0-.55-.45-1-1-1h-2v6H5V3zm-1 7h11v1H4v-1zm0 3h7v1H4v-1z"/></svg>
   </div>
-  <div class="ab" style="top:3029px;left:418px;width:404px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
+  <div class="ab" style="top:3489px;left:418px;width:404px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;text-align:right;white-space:nowrap">Connected to the EHR</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;text-align:right;padding-top:9px">Keep clinical, patient, insurance, and billing information within a connected operational environment.</p>
   </div>
 
   <!-- REASON 2 -->
-  <div class="ab" style="top:3251px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3711px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(255,255,255,0.06)"/><circle cx="60" cy="60" r="52" fill="#263855"/></svg>
   </div>
-  <div class="ab" style="top:3281px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:3741px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
   </div>
-  <div class="ab" style="top:3268px;left:1102px;width:339px;display:flex;flex-direction:column;gap:9px">
+  <div class="ab" style="top:3728px;left:1102px;width:339px;display:flex;flex-direction:column;gap:9px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Clear Claim Visibility</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;padding-top:9px">Understand where each claim stands and what action is required next.</p>
   </div>
 
   <!-- REASON 3 -->
-  <div class="ab" style="top:3491px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3951px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(255,255,255,0.06)"/><circle cx="60" cy="60" r="52" fill="#263855"/></svg>
   </div>
-  <div class="ab" style="top:3521px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:3981px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6v3l4-4-4-4v3c-4.42 0-8 3.58-8 8 0 1.57.46 3.03 1.24 4.26L6.7 14.8c-.45-.83-.7-1.79-.7-2.8 0-3.31 2.69-6 6-6zm6.76 1.74L17.3 9.2c.44.84.7 1.79.7 2.8 0 3.31-2.69 6-6 6v-3l-4 4 4 4v-3c4.42 0 8-3.58 8-8 0-1.57-.46-3.03-1.24-4.26z"/></svg>
   </div>
-  <div class="ab" style="top:3508px;left:418px;width:404px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
+  <div class="ab" style="top:3968px;left:418px;width:404px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;text-align:right;white-space:nowrap">Reduced Manual Follow&#8209;Up</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;text-align:right;padding-top:9px">Use electronic acknowledgements and status transactions to reduce repetitive payer portal checks.</p>
   </div>
 
   <!-- REASON 4 -->
-  <div class="ab" style="top:3731px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:4191px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(255,255,255,0.06)"/><circle cx="60" cy="60" r="52" fill="#263855"/></svg>
   </div>
-  <div class="ab" style="top:3761px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:4221px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
   </div>
-  <div class="ab" style="top:3748px;left:1102px;width:450px;display:flex;flex-direction:column;gap:9px">
+  <div class="ab" style="top:4208px;left:1102px;width:450px;display:flex;flex-direction:column;gap:9px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Easier Rejection Management</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;padding-top:9px">Turn payer responses into organized correction and follow&#8209;up tasks.</p>
   </div>
 
   <!-- REASON 5 -->
-  <div class="ab" style="top:3971px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:4431px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(255,255,255,0.06)"/><circle cx="60" cy="60" r="52" fill="#263855"/></svg>
   </div>
-  <div class="ab" style="top:4001px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:4461px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
   </div>
-  <div class="ab" style="top:3988px;left:368px;width:454px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
+  <div class="ab" style="top:4448px;left:368px;width:454px;display:flex;flex-direction:column;gap:9px;align-items:flex-end">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;text-align:right;white-space:nowrap">Support for Practice Growth</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;text-align:right;padding-top:9px">Manage increasing providers, locations, users, and claim volumes through a consistent workflow.</p>
   </div>
 
   <!-- REASON 6 -->
-  <div class="ab" style="top:4211px;left:902px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:4671px;left:902px;width:120px;height:120px;overflow:visible">
     <svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg"><circle cx="60" cy="60" r="58" fill="rgba(255,255,255,0.06)"/><circle cx="60" cy="60" r="52" fill="#263855"/></svg>
   </div>
-  <div class="ab" style="top:4241px;left:932px;width:60px;height:60px">
+  <div class="ab" style="top:4701px;left:932px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="white" stroke="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg>
   </div>
-  <div class="ab" style="top:4217px;left:1102px;width:392px;display:flex;flex-direction:column;gap:9px">
+  <div class="ab" style="top:4677px;left:1102px;width:392px;display:flex;flex-direction:column;gap:9px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Implementation Support</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.11px;color:#f2f4f7;padding-top:9px">Receive assistance with setup, payer enrollment, testing, transaction configuration, and staff onboarding.</p>
   </div>
@@ -5632,64 +5704,64 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   ══════════════════════════════════════════════════════════ -->
 
   <!-- Badge "THE TRANSACTION SET" left:240 top:4799 -->
-  <div class="ab" style="left:240px;top:4799px;width:196px;height:39px;background:#fff;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
+  <div class="ab" style="left:240px;top:5259px;width:196px;height:39px;background:#fff;border:1px solid #2155b5;border-radius:60px;display:flex;align-items:center;padding:0 24px">
     <span style="font-weight:700;font-size:12.5px;color:#0d2248;white-space:nowrap">THE TRANSACTION SET</span>
   </div>
 
   <!-- Heading left:240 top:4870 -->
-  <p class="ab" style="left:240px;top:4870px;width:576px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248"><span style="background:linear-gradient(to right,#2155b5,#00d9ce 80.288%);-webkit-background-clip:text;background-clip:text;color:transparent">One Connection</span> Across the Claims Lifecycle</p>
+  <p class="ab" style="left:240px;top:5330px;width:576px;font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248"><span style="background:linear-gradient(to right,#2155b5,#00d9ce 80.288%);-webkit-background-clip:text;background-clip:text;color:transparent">One Connection</span> Across the Claims Lifecycle</p>
 
   <!-- Right description top:4907 -->
-  <p class="ab" style="left:1098px;top:4907px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568;text-align:right">Claims processing becomes harder when eligibility, claim submission, payer responses, and remittance information are managed through separate systems.</p>
+  <p class="ab" style="left:1098px;top:5367px;width:582px;font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568;text-align:right">Claims processing becomes harder when eligibility, claim submission, payer responses, and remittance information are managed through separate systems.</p>
 
   <!-- Transaction cards row 1 -->
-  <div class="ab" style="left:240px;top:5207px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:275.83px;top:5249.75px;width:102px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:240px;top:5667px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:275.83px;top:5687px;width:102px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">270/271</span>
   </div>
-  <div class="ab" style="left:275.83px;top:5417px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:275.83px;top:5877px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Eligibility and Benefits</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">Submit eligibility inquiries and receive coverage and benefit information before the patient visit.</p>
   </div>
-  <div class="ab" style="left:727px;top:5207px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:762.83px;top:5249.75px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:727px;top:5667px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:762.83px;top:5687px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">837</span>
   </div>
-  <div class="ab" style="left:762.83px;top:5417px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:762.83px;top:5877px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Electronic Claims</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">Professional, Institutional and Dental. Transmit claims electronically to connected payers.</p>
   </div>
-  <div class="ab" style="left:1214px;top:5207px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:1249.83px;top:5249.75px;width:136px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:1214px;top:5667px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:1249.83px;top:5687px;width:136px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">999 / 277CA</span>
   </div>
-  <div class="ab" style="left:1249.83px;top:5417px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:1249.83px;top:5877px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Claim Acknowledgements</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">See whether claim files and individual claims were accepted or require correction.</p>
   </div>
 
   <!-- Transaction cards row 2 -->
-  <div class="ab" style="left:240px;top:5583px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:275.83px;top:5625.75px;width:102px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:240px;top:6043px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:275.83px;top:6063px;width:102px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">276/277</span>
   </div>
-  <div class="ab" style="left:275.83px;top:5793px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:275.83px;top:6253px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Claim Status</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">Request claim status information and review payer responses without relying entirely on manual follow&#8209;up.</p>
   </div>
-  <div class="ab" style="left:727px;top:5583px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:762.83px;top:5625.75px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:727px;top:6043px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:762.83px;top:6063px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">835</span>
   </div>
-  <div class="ab" style="left:762.83px;top:5793px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:762.83px;top:6253px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Electronic Remittance Advice</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">Receive structured remittance information to support payment posting, adjustment review, and reconciliation.</p>
   </div>
-  <div class="ab" style="left:1214px;top:5583px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
-  <div class="ab" style="left:1249.83px;top:5625.75px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
+  <div class="ab" style="left:1214px;top:6043px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px"></div>
+  <div class="ab" style="left:1249.83px;top:6063px;width:68px;height:60px;background:#99f0eb;border-radius:10px;display:flex;align-items:center;justify-content:center;padding:0 13px">
     <span style="font-weight:600;font-size:20px;color:#2155b5;white-space:nowrap">275</span>
   </div>
-  <div class="ab" style="left:1249.83px;top:5793px;width:381px;display:flex;flex-direction:column;gap:12px">
+  <div class="ab" style="left:1249.83px;top:6253px;width:381px;display:flex;flex-direction:column;gap:12px">
     <p style="font-weight:500;font-size:24px;line-height:38px;color:#2155b5">Claim Attachments</p>
     <p style="font-weight:400;font-size:16px;line-height:24px;color:#4b5568">Transmit supporting claim documentation electronically when supported by the payer and workflow.</p>
   </div>
@@ -5697,7 +5769,13 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <!-- ══════════════════════════════════════════════════════════
        CTA BANNER  top:6133
   ══════════════════════════════════════════════════════════ -->
-  <div class="ab" style="top:6133px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px">
+    <div class="ab" style="top:6866px;left:0;width:1920px;height:978px;background:#0d2248"></div>
+
+
+  <!-- ══════════════════════════════════════════════════════════
+       FOOTER  top:6406
+  ══════════════════════════════════════════════════════════ -->
+  <div class="ab" style="top:6593px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
         <div style="transform:rotate(90deg);flex:none"><div style="height:1443px;width:416px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%;object-position:bottom;pointer-events:none" src="https://www.figma.com/api/mcp/asset/6587d9ee-c468-4bc6-b461-397eb44a0945.png" alt=""></div></div>
@@ -5720,18 +5798,12 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
         </div>
       </div>
     </div>
-  </div>
-
-  <!-- ══════════════════════════════════════════════════════════
-       FOOTER  top:6406
-  ══════════════════════════════════════════════════════════ -->
-  <div class="ab" style="top:6406px;left:0;width:1920px;height:978px;background:#0d2248"></div>
-  <div class="ab" style="left:317px;top:6406px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
+  </div>  <div class="ab" style="left:317px;top:6866px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;width:350px">
         <div style="display:flex;flex-direction:column;gap:16px;width:350px">
           <div onclick="navigate('home')" style="cursor:pointer;display:flex;align-items:center;gap:12px;height:50px">
-            <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><circle cx="19" cy="19" r="19" fill="#00d9ce"/><path d="M19 10l7 9H12l7-9z" fill="white"/></svg>
+            <img src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt="FractionEHR" style="width:38px;height:38px;flex-shrink:0">
             <span style="font-weight:600;font-size:25px;color:#fff;white-space:nowrap">FractionEHR</span>
           </div>
           <p style="font-weight:500;font-size:16px;color:#fafafa;line-height:24px;width:351px">FractionEHR is a managed, OpenEMR&#8209;based cloud EHR and practice management platform for independent practices and clinics.</p>
@@ -5788,7 +5860,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
 </div><!-- /page-edi-clearing-house -->
 
-<div id="page-ehr-247" class="pg site-page" style="height:6929px;display:none">
+<div id="page-ehr-247" class="pg site-page" style="height:7389px;display:none">
 
   <!-- ── HERO GRADIENT ── top:0 h:750 -->
   <div class="ab" style="top:0;left:50%;transform:translateX(-50%);width:1920px;height:750px;background:linear-gradient(90deg,#14204d 0%,#2155b5 50%,#00d9ce 100%)"></div>
@@ -5830,27 +5902,27 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <!-- ══════════════════════════════════════════════ -->
 
   <!-- Badge -->
-  <div class="ab" style="top:950px;left:240px;display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
+  <div class="ab" data-stick-sec="ehr" style="top:950px;left:240px;display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
     <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">WHY IT MATTERS</span>
   </div>
 
   <!-- Heading left -->
-  <div class="ab" style="top:1021px;left:240px;width:545px">
+  <div class="ab" data-stick-sec="ehr" style="top:1021px;left:240px;width:545px">
     <p style="font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#0d2248">Connecting Patient History to <span style="background:linear-gradient(90deg,#2155b5 21%,#00d9ce);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Better Care</span></p>
   </div>
 
   <!-- Body paragraphs -->
-  <div class="ab" style="top:1293px;left:240px;width:582px">
+  <div class="ab" data-stick-sec="ehr" style="top:1293px;left:240px;width:582px">
     <p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">Clinical work becomes harder when patient history, encounter documentation, medications, diagnoses, and orders are managed through disconnected systems or inconsistent processes.</p>
   </div>
-  <div class="ab" style="top:1390px;left:240px;width:582px">
+  <div class="ab" data-stick-sec="ehr" style="top:1390px;left:240px;width:582px">
     <p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">EHR 24/7 brings these activities into one clinical workspace, helping providers document care efficiently, access relevant patient information, and coordinate the next steps in treatment.</p>
   </div>
 
   <!-- Card 01 -->
-  <div class="ab" style="top:1101px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="top:1421px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
-  <div class="ab" style="top:1141px;left:965px;width:679px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="ehr-c1" style="z-index:1;top:1101px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="ehr-c1" style="z-index:1;top:1421px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
+  <div class="ab" data-stack-card="ehr-c1" style="z-index:1;top:1141px;left:965px;width:679px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">01</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Bring Patient Information Together</p>
@@ -5859,9 +5931,9 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 02 -->
-  <div class="ab" style="top:1467px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="top:1787px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
-  <div class="ab" style="top:1507px;left:973px;width:679px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="ehr-c2" style="opacity:0;z-index:2;top:1467px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="ehr-c2" style="opacity:0;z-index:2;top:1787px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
+  <div class="ab" data-stack-card="ehr-c2" style="opacity:0;z-index:2;top:1507px;left:973px;width:679px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">02</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Document Encounters More Consistently</p>
@@ -5870,9 +5942,9 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 03 -->
-  <div class="ab" style="top:1841px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
-  <div class="ab" style="top:2161px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
-  <div class="ab" style="top:1881px;left:965px;width:679px;display:flex;flex-direction:column;gap:56px">
+  <div class="ab" data-stack-card="ehr-c3" style="opacity:0;z-index:3;top:1841px;left:929px;width:751px;height:332px;background:#fff;border:1px solid #d0d0d0"></div>
+  <div class="ab" data-stack-card="ehr-c3" style="opacity:0;z-index:3;top:2161px;left:929px;width:751px;height:12px;background:linear-gradient(90deg,#2155b5 0%,#0f9dc3 55%,#00d9ce 100%)"></div>
+  <div class="ab" data-stack-card="ehr-c3" style="opacity:0;z-index:3;top:1881px;left:965px;width:679px;display:flex;flex-direction:column;gap:56px">
     <p style="font-weight:400;font-size:64px;line-height:74px;color:#222">03</p>
     <div style="display:flex;flex-direction:column;gap:14px">
       <p style="font-weight:500;font-size:34px;line-height:38px;color:#2155b5">Coordinate Clinical Actions Faster</p>
@@ -5883,102 +5955,102 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <!-- ══════════════════════════════════════════════ -->
   <!-- DARK NAVY top:2493 h:1651                      -->
   <!-- ══════════════════════════════════════════════ -->
-  <div class="ab" style="top:2493px;left:50%;transform:translateX(-50%);width:1920px;height:1651px;background:#0d2248"></div>
+  <div class="ab" style="top:2953px;left:50%;transform:translateX(-50%);width:1920px;height:1651px;background:#0d2248"></div>
 
   <!-- "WHY EHR 24/7?" badge centered top:2613 -->
-  <div class="ab" style="top:2613px;left:887px;width:146px;display:inline-flex;align-items:center;justify-content:center;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
+  <div class="ab" style="top:3073px;left:887px;width:146px;display:inline-flex;align-items:center;justify-content:center;background:#f2f4f7;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
     <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">WHY EHR 24/7?</span>
   </div>
 
   <!-- "Six Reasons" heading centered top:2684 -->
-  <div class="ab" style="top:2684px;left:50%;transform:translateX(-50%);width:903px;text-align:center">
+  <div class="ab" style="top:3144px;left:50%;transform:translateX(-50%);width:903px;text-align:center">
     <p style="font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px;color:#fff">Six Reasons Clinical Teams <span style="color:#00d9ce">Stay Productive Here</span></p>
   </div>
 
   <!-- ── 2×3 GRID CELLS ── -->
   <!-- Row 1, Left (top-left teal border) -->
-  <div class="ab" style="top:2964px;left:240px;width:719px;height:354px;border-top:1px solid #00d9ce;border-right:1px solid #00d9ce;border-bottom:1px solid #00d9ce"></div>
+  <div class="ab" style="top:3424px;left:240px;width:719px;height:354px;border-top:1px solid #00d9ce;border-right:1px solid #00d9ce;border-bottom:1px solid #00d9ce"></div>
   <!-- Row 1, Right (white border) -->
-  <div class="ab" style="top:2964px;left:958px;width:722px;height:354px;border-top:1px solid #fff;border-left:1px solid #fff;border-bottom:1px solid #fff"></div>
+  <div class="ab" style="top:3424px;left:958px;width:722px;height:354px;border-top:1px solid #fff;border-left:1px solid #fff;border-bottom:1px solid #fff"></div>
   <!-- Row 2, Left (white border) -->
-  <div class="ab" style="top:3317px;left:240px;width:719px;height:354px;border-top:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #fff"></div>
+  <div class="ab" style="top:3777px;left:240px;width:719px;height:354px;border-top:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #fff"></div>
   <!-- Row 2, Right (white border) -->
-  <div class="ab" style="top:3317px;left:958px;width:722px;height:354px;border-top:1px solid #fff;border-left:1px solid #fff;border-bottom:1px solid #fff"></div>
+  <div class="ab" style="top:3777px;left:958px;width:722px;height:354px;border-top:1px solid #fff;border-left:1px solid #fff;border-bottom:1px solid #fff"></div>
   <!-- Row 3, Left (white border) -->
-  <div class="ab" style="top:3670px;left:240px;width:719px;height:354px;border-top:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #fff"></div>
+  <div class="ab" style="top:4130px;left:240px;width:719px;height:354px;border-top:1px solid #fff;border-right:1px solid #fff;border-bottom:1px solid #fff"></div>
   <!-- Row 3, Right (bottom-right teal border) -->
-  <div class="ab" style="top:3670px;left:958px;width:722px;height:354px;border-top:1px solid #00d9ce;border-left:1px solid #00d9ce;border-bottom:1px solid #00d9ce"></div>
+  <div class="ab" style="top:4130px;left:958px;width:722px;height:354px;border-top:1px solid #00d9ce;border-left:1px solid #00d9ce;border-bottom:1px solid #00d9ce"></div>
 
   <!-- ── CELL ICONS & TEXT ── (using proper SVG inset + separate icon div) -->
 
   <!-- Cell 1 (left:240, top:2964) — plug icon, circle left:313 top:3020 -->
-  <div class="ab" style="top:3020px;left:313px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3480px;left:313px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3050px;left:343px;width:60px;height:60px">
+  <div class="ab" style="top:3510px;left:343px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3176px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:3636px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Connected Patient Records</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Keep demographics, history, encounters, diagnoses, medications, allergies, and orders within one coordinated clinical environment.</p>
   </div>
 
   <!-- Cell 2 (left:958, top:2964) — star icon, circle left:1032 top:3020 -->
-  <div class="ab" style="top:3020px;left:1032px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3480px;left:1032px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3050px;left:1062px;width:60px;height:60px">
+  <div class="ab" style="top:3510px;left:1062px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3176px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:3636px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Clear Clinical Workflows</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Guide providers from chart review and encounter documentation through care planning, prescribing, and follow&#8209;up activities.</p>
   </div>
 
   <!-- Cell 3 (left:240, top:3317) — repeat icon, circle left:313 top:3373 -->
-  <div class="ab" style="top:3373px;left:313px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3833px;left:313px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3403px;left:343px;width:60px;height:60px">
+  <div class="ab" style="top:3863px;left:343px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3529px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:3989px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Less Duplicate Documentation</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Reuse relevant patient and encounter information instead of repeatedly entering the same clinical details across separate systems.</p>
   </div>
 
   <!-- Cell 4 (left:958, top:3317) — visibility icon, circle left:1032 top:3373 -->
-  <div class="ab" style="top:3373px;left:1032px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:3833px;left:1032px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3403px;left:1062px;width:60px;height:60px">
+  <div class="ab" style="top:3863px;left:1062px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3529px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:3989px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Better Medication Visibility</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Give authorized providers access to medication and allergy information when reviewing treatment options and prescribing decisions.</p>
   </div>
 
   <!-- Cell 5 (left:240, top:3670) — arrow-growth icon, circle left:313 top:3726 -->
-  <div class="ab" style="top:3726px;left:313px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:4186px;left:313px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3756px;left:343px;width:60px;height:60px">
+  <div class="ab" style="top:4216px;left:343px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3882px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:4342px;left:313px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Role&#8209;Based Team Access</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Provide clinical and administrative users with access based on their responsibilities within the practice.</p>
   </div>
 
   <!-- Cell 6 (left:958, top:3670) — setting icon, circle left:1032 top:3726 -->
-  <div class="ab" style="top:3726px;left:1032px;width:120px;height:120px;overflow:visible">
+  <div class="ab" style="top:4186px;left:1032px;width:120px;height:120px;overflow:visible">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3756px;left:1062px;width:60px;height:60px">
+  <div class="ab" style="top:4216px;left:1062px;width:60px;height:60px">
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0d2248" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 9l-7 7-7-7"/></svg>
   </div>
-  <div class="ab" style="top:3882px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
+  <div class="ab" style="top:4342px;left:1032px;width:571px;display:flex;flex-direction:column;gap:8px">
     <p style="font-weight:600;font-size:32px;line-height:20.5px;letter-spacing:-0.38px;color:#fff;white-space:nowrap">Implementation Support</p>
     <p style="font-weight:400;font-size:15.07px;line-height:24.1px;color:#f2f4f7;padding-top:9px">Receive assistance with environment setup, workflow configuration, data migration, staff onboarding, and ongoing system support.</p>
   </div>
@@ -5988,23 +6060,23 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <!-- ══════════════════════════════════════════════ -->
 
   <!-- Badge "THE CLINICAL WORKSPACE" -->
-  <div class="ab" style="top:4344px;left:240px;display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
+  <div class="ab" style="top:4804px;left:240px;display:inline-flex;align-items:center;justify-content:center;background:#fff;border:1px solid #2155b5;border-radius:60px;padding:0 24px;height:39px">
     <span style="font-weight:700;font-size:12.5px;color:#0d2248;white-space:nowrap">THE CLINICAL WORKSPACE</span>
   </div>
 
   <!-- Heading: gradient "One Workspace" + dark "Across the Care Journey" -->
-  <div class="ab" style="top:4415px;left:240px;width:576px">
+  <div class="ab" style="top:4875px;left:240px;width:576px">
     <p style="font-weight:500;font-size:74px;line-height:80px;letter-spacing:-3px"><span style="background:linear-gradient(90deg,#2155b5,#00d9ce 80%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">One Workspace</span><span style="color:#0d2248"> Across the Care Journey</span></p>
   </div>
 
   <!-- Description right-aligned -->
-  <div class="ab" style="top:4452px;left:1098px;width:582px;text-align:right">
+  <div class="ab" style="top:4912px;left:1098px;width:582px;text-align:right">
     <p style="font-weight:400;font-size:16.5px;line-height:28.05px;color:#4b5568">EHR 24/7 connects the clinical record, encounter documentation, prescribing, and order management in a single workspace providers can access without maintaining local servers.</p>
   </div>
 
   <!-- ── Row 1 Workspace Cards top:4752 ── -->
   <!-- Card 1: Patient Record -->
-  <div class="ab" style="top:4752px;left:240px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5212px;left:240px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:42px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Patient Record</span>
     </div>
@@ -6015,7 +6087,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 2: Encounters -->
-  <div class="ab" style="top:4752px;left:727px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5212px;left:727px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:42px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Encounters</span>
     </div>
@@ -6026,7 +6098,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 3: Care Planning -->
-  <div class="ab" style="top:4752px;left:1214px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5212px;left:1214px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:42px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Care Planning</span>
     </div>
@@ -6038,7 +6110,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
   <!-- ── Row 2 Workspace Cards top:5128 ── -->
   <!-- Card 4: Medications -->
-  <div class="ab" style="top:5128px;left:240px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5588px;left:240px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:37px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Medications</span>
     </div>
@@ -6049,7 +6121,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 5: Prescribing -->
-  <div class="ab" style="top:5128px;left:727px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5588px;left:727px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:37px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Prescribing</span>
     </div>
@@ -6060,7 +6132,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- Card 6: Orders -->
-  <div class="ab" style="top:5128px;left:1214px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
+  <div class="ab" style="top:5588px;left:1214px;width:465px;height:350px;background:#fff;border:1px solid #00d9ce;border-radius:20px">
     <div style="position:absolute;left:36px;top:37px;background:#99f0eb;border-radius:10px;padding:16px 13px 16px 12px;display:inline-flex;align-items:center;min-height:60px">
       <span style="font-weight:600;font-size:20px;line-height:28px;color:#2155b5;white-space:nowrap">Orders</span>
     </div>
@@ -6071,7 +6143,8 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA ── top:5678 -->
-  <div class="ab" style="top:5678px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
+  <div class="ab" style="top:6411px;left:0;width:1920px;height:978px;background:#0d2248"></div>
+  <div class="ab" style="top:6138px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
         <div style="transform:rotate(90deg);flex:none">
@@ -6101,15 +6174,14 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:5951 -->
-  <div class="ab" style="top:5951px;left:0;width:1920px;height:978px;background:#0d2248"></div>
-  <div class="ab" style="left:317px;top:5951px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
+  <div class="ab" style="left:317px;top:6411px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
         <div style="display:flex;flex-direction:column;gap:16px;height:165px;align-items:flex-start;justify-content:center;overflow:clip;width:350px">
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -6406,6 +6478,9 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
     <img alt="" style="position:absolute;height:118.14%;left:0;max-width:none;top:-6.06%;width:100%;pointer-events:none;object-fit:cover" src="https://www.figma.com/api/mcp/asset/3d3f7799-1589-4408-b8ca-fc060d1db806.png">
   </div>
 
+  <!-- ── FOOTER ── top:5286 -->
+  <div class="ab" style="top:5286px;left:0;width:1920px;height:978px;background:#0d2248"></div>
+
   <!-- ══════════════════════════════════════════════════
        CTA BANNER top:5013
   ══════════════════════════════════════════════════ -->
@@ -6437,13 +6512,12 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   <!-- ══════════════════════════════════════════════════
        FOOTER top:5286
   ══════════════════════════════════════════════════ -->
-  <div class="ab" style="top:5286px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:5286px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;width:350px">
         <div style="display:flex;flex-direction:column;gap:16px;width:350px">
           <div onclick="navigate('home')" style="cursor:pointer;display:flex;align-items:center;gap:12px;height:50px">
-            <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg"><circle cx="19" cy="19" r="19" fill="#00d9ce"/><path d="M19 10l7 9H12l7-9z" fill="white"/></svg>
+            <img src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt="FractionEHR" style="width:38px;height:38px;flex-shrink:0">
             <span style="font-weight:600;font-size:25px;color:#fff;white-space:nowrap">FractionEHR</span>
           </div>
           <p style="font-weight:500;font-size:16px;color:#fafafa;line-height:24px;width:351px">FractionEHR is a managed, OpenEMR&#8209;based cloud EHR and practice management platform for independent practices and clinics.</p>
@@ -6706,6 +6780,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── CTA BANNER ── top:4793 left:240 w:1440 h:416 -->
+  <div class="ab" style="top:5066px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="top:4793px;left:240px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 440px;z-index:2">
     <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
       <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
@@ -6738,7 +6813,6 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
   </div>
 
   <!-- ── FOOTER ── top:5066 -->
-  <div class="ab" style="top:5066px;left:0;width:1920px;height:978px;background:#0d2248"></div>
   <div class="ab" style="left:317px;top:5066px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
     <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
       <div style="display:flex;flex-direction:column;gap:32px;height:240px;align-items:flex-start;justify-content:center;width:350px;overflow:clip">
@@ -6746,7 +6820,7 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
           <div onclick="navigate('home')" style="height:50px;width:230px;position:relative;cursor:pointer">
             <div style="position:absolute;left:0;top:12px;display:flex;align-items:center;justify-content:center">
               <div style="display:inline-grid;place-items:start">
-                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/c0d28a79-e143-4039-95a6-14df6061302c.svg" alt=""></div>
+                <div style="grid-column:1;grid-row:1;width:38px;height:38px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%" src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt=""></div>
                 <div style="grid-column:1;grid-row:1;margin-left:46px;margin-top:4px;display:flex;align-items:center;font-weight:600;font-size:25px;color:#fff;white-space:nowrap"><span>Fraction</span><span>EHR</span></div>
               </div>
             </div>
@@ -6812,6 +6886,493 @@ body{background:#fff;overflow-x:hidden;font-family:'Inter',sans-serif}
 
 </div><!-- /page-company -->
 
+
+<!-- ════════════════════════════════════════════════════════════ -->
+<!--  PRICING PAGE  (from Figma node 916:16259)                  -->
+<!-- ════════════════════════════════════════════════════════════ -->
+<div id="page-pricing" class="pg site-page" style="height:4843px;display:none">
+
+<!-- BG SECTIONS -->
+<div class="ab" style="background:linear-gradient(90.7deg,#14204d 0.24%,#2155b5 46.88%,#00d9ce 93.53%);height:750px;left:0;top:0;width:1920px"></div>
+<!-- Footer dark bg — comes before CTA in DOM so CTA layers on top -->
+<div class="ab" style="background:#0d2248;top:3865px;left:0;width:1920px;height:978px"></div>
+
+<!-- ══ BADGE ══ -->
+<div class="ab" style="left:50%;transform:translateX(calc(-50% + 0.5px));top:228px;width:84px;height:39px;background:#fff;border:1px solid #2155b5;border-radius:60px;display:grid;place-items:center">
+  <span style="font-weight:700;font-size:12.5px;color:#2155b5;white-space:nowrap">PRICING</span>
+</div>
+
+<!-- ══ HEADING ══ -->
+<p class="ab" style="left:50%;transform:translateX(-50%);top:299px;width:1140px;font-weight:500;font-size:64px;line-height:70px;letter-spacing:-3px;color:#fff;text-align:center">Simple, per&#8209;provider pricing. Nothing itemized on the side.</p>
+
+<!-- ══ BILLING TOGGLE (segmented pill) ══ -->
+<div class="ab" style="left:50%;transform:translateX(calc(-50% + 0.09px));top:499px;width:164.188px;height:42px;background:#fafafa;box-shadow:0 1px 2.5px #f0f1f2;display:flex;gap:2px;align-items:center;justify-content:center;border-radius:21px;padding:4px 1px 4px 4px">
+  <div id="pc-tab-monthly" onclick="setPcBilling('monthly')" style="height:34px;border-radius:17px;background:#00d9ce;width:85.063px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
+    <p style="font-weight:500;font-size:16px;color:#fff;letter-spacing:-0.16px;white-space:nowrap">Monthly</p>
+  </div>
+  <div id="pc-tab-yearly" onclick="setPcBilling('yearly')" style="height:34px;border-radius:15px;width:72.125px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
+    <p style="font-weight:400;font-size:16px;color:rgba(34,34,34,0.6);letter-spacing:-0.16px;white-space:nowrap">Yearly</p>
+  </div>
+</div>
+
+<!-- ══ PLAN CARDS (flex, bottom-aligned) ══ -->
+<div class="ab" style="left:50%;transform:translateX(-50%);top:595px;width:1440px;display:flex;align-items:flex-end;justify-content:center;gap:14.4px">
+
+  <!-- STARTER -->
+  <div style="flex:1;background:linear-gradient(to right,#faf9f7,#faf9f7);border-radius:24px;border:1.2px solid #e6e9ee;overflow:hidden;position:relative;height:626.869px">
+    <div style="padding:12px;height:100%;display:flex;flex-direction:column;gap:24px">
+      <!-- Header card -->
+      <div style="background:#fff;border-radius:18px;border-bottom:1.2px solid #e6e9ee;padding:24px 24px 31.2px;display:flex;flex-direction:column;gap:30px">
+        <div style="display:flex;flex-direction:column;gap:8.4px">
+          <p style="font-size:28.8px;color:#2155b5;letter-spacing:-0.864px;line-height:34.56px;white-space:nowrap">Starter</p>
+          <p style="font-size:19.2px;color:#222;letter-spacing:-0.192px;line-height:24.96px">For solo founders and small teams getting started</p>
+        </div>
+        <div style="display:flex;gap:2.4px;align-items:flex-end">
+          <p class="pc-price-monthly" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap">$29</p>
+          <p class="pc-price-annual" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap;display:none">$25</p>
+          <p style="font-size:21.6px;color:#4b5568;letter-spacing:-0.216px;line-height:30.24px;padding-bottom:6px;white-space:nowrap">/user/month</p>
+        </div>
+      </div>
+      <!-- Features -->
+      <div style="padding:24px;flex:1;display:flex;flex-direction:column;gap:15.6px">
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Patient scheduling &amp; calendar</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Clinical notes &amp; documentation</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Billing &amp; claims management</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Patient portal access</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Email &amp; ticket support</p></div>
+      </div>
+      <!-- CTA -->
+      <div style="padding:0 12px 12px">
+        <div onclick="navigate('contact','Contact Us')" style="border:1px solid #2155b5;height:64.8px;border-radius:32.4px;display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative">
+          <p style="font-weight:500;font-size:19.2px;color:#2155b5;letter-spacing:-0.192px;white-space:nowrap">Get started</p>
+        </div>
+      </div>
+    </div>
+    <div style="position:absolute;inset:0;border:1.2px solid #e6e9ee;border-radius:24px;pointer-events:none"></div>
+  </div>
+
+  <!-- PRO (most popular, dark navy outer) -->
+  <div style="flex:1;background:#0d2248;border-radius:24px;box-shadow:0 4px 4px rgba(0,0,0,0.25);overflow:hidden;height:664.556px;padding:3.6px;display:flex;flex-direction:column;gap:13.2px">
+    <!-- Most popular label -->
+    <div style="height:42.244px;display:flex;gap:8.4px;align-items:center;justify-content:center;padding-top:12px;flex-shrink:0">
+      <div style="width:28.8px;height:28.8px;flex-shrink:0"></div>
+      <p style="font-size:21.6px;color:#fff;letter-spacing:-0.216px;line-height:30.24px;white-space:nowrap">Most popular</p>
+    </div>
+    <!-- Inner cream card -->
+    <div style="background:#faf9f7;border-radius:21.6px;flex:1;padding:12px;display:flex;flex-direction:column;gap:24px">
+      <!-- Header -->
+      <div style="background:#fff;border-radius:18px;border-bottom:1.2px solid #e6e9ee;padding:24px 24px 31.2px;display:flex;flex-direction:column;gap:30px">
+        <div style="display:flex;flex-direction:column;gap:8.4px">
+          <p style="font-size:28.8px;color:#2155b5;letter-spacing:-0.864px;line-height:34.56px;white-space:nowrap">Pro</p>
+          <p style="font-size:19.2px;color:#2b2b2b;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">For growing practices with an active pipeline</p>
+        </div>
+        <div style="display:flex;gap:2.4px;align-items:flex-end">
+          <p class="pc-price-monthly" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap">$79</p>
+          <p class="pc-price-annual" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap;display:none">$67</p>
+          <p style="font-size:21.6px;color:#4b5568;letter-spacing:-0.216px;line-height:30.24px;padding-bottom:6px;white-space:nowrap">/user/month</p>
+        </div>
+      </div>
+      <!-- Features -->
+      <div style="padding:24px;flex:1;display:flex;flex-direction:column;gap:15.6px">
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0;display:flex;align-items:center;justify-content:center"><div style="width:15.6px;height:15.6px"></div></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">EDI Clearing House integration</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0;display:flex;align-items:center;justify-content:center"><div style="width:15.6px;height:15.6px"></div></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Insurance eligibility verification</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0;display:flex;align-items:center;justify-content:center"><div style="width:15.6px;height:15.6px"></div></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">ePrescribing (EPCS&#8209;ready)</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0;display:flex;align-items:center;justify-content:center"><div style="width:15.6px;height:15.6px"></div></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Practice Mate admin module</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0;display:flex;align-items:center;justify-content:center"><div style="width:15.6px;height:15.6px"></div></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Priority support</p></div>
+      </div>
+      <!-- CTA -->
+      <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:64.8px;border-radius:32.4px;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0">
+        <p style="font-weight:600;font-size:19.2px;color:#fff;letter-spacing:-0.192px;white-space:nowrap">Get started</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SCALE -->
+  <div style="flex:1;background:linear-gradient(to right,#faf9f7,#faf9f7);border-radius:24px;border:1.2px solid #e6e9ee;overflow:hidden;position:relative;height:626.869px">
+    <div style="padding:12px;height:100%;display:flex;flex-direction:column;gap:24px">
+      <!-- Header card -->
+      <div style="background:#fff;border-radius:18px;border-bottom:1.2px solid #e6e9ee;padding:24px 24px 31.2px;display:flex;flex-direction:column;gap:30px">
+        <div style="display:flex;flex-direction:column;gap:8.4px">
+          <p style="font-size:28.8px;color:#2155b5;letter-spacing:-0.864px;line-height:34.56px;white-space:nowrap">Scale</p>
+          <p style="font-size:19.2px;color:#222;letter-spacing:-0.192px;line-height:24.96px">For growing teams that need structure and control</p>
+        </div>
+        <div style="display:flex;gap:2.4px;align-items:flex-end">
+          <p class="pc-price-monthly" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap">$149</p>
+          <p class="pc-price-annual" style="font-weight:500;font-size:72px;color:#222;letter-spacing:-1.44px;line-height:75.6px;white-space:nowrap;display:none">$127</p>
+          <p style="font-size:21.6px;color:#4b5568;letter-spacing:-0.216px;line-height:30.24px;padding-bottom:6px;white-space:nowrap">/user/month</p>
+        </div>
+      </div>
+      <!-- Features -->
+      <div style="padding:24px;flex:1;display:flex;flex-direction:column;gap:15.6px">
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">EHR 24/7 full system access</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Multi&#8209;location management</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Role&#8209;based access control</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Custom reporting &amp; dashboards</p></div>
+        <div style="display:flex;gap:12px;align-items:center"><div style="background:#cfe0ff;border-radius:31.2px;width:22.8px;height:22.8px;flex-shrink:0"></div><p style="font-size:19.2px;color:#4b5568;letter-spacing:-0.192px;line-height:24.96px;white-space:nowrap">Dedicated onboarding support</p></div>
+      </div>
+      <!-- CTA -->
+      <div style="padding:0 12px 12px">
+        <div onclick="navigate('contact','Contact Us')" style="border:1px solid #2155b5;height:64.8px;border-radius:32.4px;display:flex;align-items:center;justify-content:center;cursor:pointer;position:relative">
+          <p style="font-weight:500;font-size:19.2px;color:#2155b5;letter-spacing:-0.192px;white-space:nowrap">Get started</p>
+        </div>
+      </div>
+    </div>
+    <div style="position:absolute;inset:0;border:1.2px solid #e6e9ee;border-radius:24px;pointer-events:none"></div>
+  </div>
+
+</div><!-- /plan cards -->
+
+<!-- ══ GET IN TOUCH heading ══ -->
+<div class="ab" style="left:50%;transform:translateX(calc(-50% + 0.5px));top:1460px;width:551px;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center">
+  <p style="width:1140px;font-weight:500;font-size:64px;color:#14204d;text-align:center;letter-spacing:-3px;line-height:70px;white-space:nowrap">Get in touch <span style="background:linear-gradient(90deg,#2155b5 38.94%,#00d9ce 87.98%);-webkit-background-clip:text;background-clip:text;color:transparent">with us</span></p>
+  <p style="font-size:15px;color:rgba(52,43,39,0.65);text-align:center;line-height:22px;width:492px">We&#8217;re here to help you evaluate, implement, and get the most from FractionEHR. Reach out for any of the following.</p>
+</div>
+
+<!-- ══ FEATURE COMPARISON TABLE ══ -->
+<div class="ab" style="left:50%;transform:translateX(-50%);top:1660px;width:1440px;height:948px;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;border-radius:11.628px">
+
+  <!-- Header row -->
+  <div style="background:#f5f4f2;height:70.695px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;overflow:hidden;border-radius:11.628px 11.628px 0 0;border:1.163px solid #e5e5e8;flex-shrink:0;position:relative">
+    <div style="padding-left:34.884px;width:536.109px;flex-shrink:0">
+      <p style="font-size:18.605px;color:#222;line-height:24.186px">Features</p>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px;flex-shrink:0">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><p style="font-size:18.605px;color:#222;text-align:center">Starter</p></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><p style="font-size:18.605px;color:#222;text-align:center">Pro</p></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><p style="font-size:18.605px;color:#222;text-align:center">Scale</p></div>
+    </div>
+  </div>
+
+  <!-- Data rows macro: 
+       check_url  = https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg  (30x20)
+       x_icon_url = https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg  (small, inside red pill)
+  -->
+
+  <!-- Row 1: Patient scheduling (all ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Patient scheduling &amp; calendar</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 2: Clinical notes (all ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Clinical notes &amp; documentation</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 3: Billing & claims (all ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Billing &amp; claims management</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 4: Patient portal (all ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Patient portal access</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 5: EDI Clearing House (✗ ✓ ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">EDI Clearing House</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 6: Insurance eligibility (✗ ✓ ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Insurance eligibility verification</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 7: ePrescribing (✗ ✓ ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">ePrescribing (EPCS&#8209;ready)</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 8: Practice Mate (✗ ✓ ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Practice Mate admin module</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 9: Onboarding (✗ ✓ ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Onboarding &amp; training</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 10: Role-based access (✗ ✗ ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Role&#8209;based access control</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 11: Multi-location (✗ ✗ ✓) -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Multi&#8209;location management</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 12: Priority support (✗ ✗ ✓) -->
+  <div style="background:#fbfcfc;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Priority support</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+  <!-- Row 13: Dedicated account support (✗ ✗ ✓) — last row with bottom radius -->
+  <div style="background:#fff;height:65.117px;width:1395.369px;display:flex;align-items:center;justify-content:space-between;border-left:1.163px solid #e5e5e8;border-right:1.163px solid #e5e5e8;border-bottom:1.163px solid #e5e5e8;border-radius:0 0 11.628px 11.628px;flex-shrink:0">
+    <div style="padding-left:34.884px;width:536.109px"><p style="font-size:18.605px;color:#222;letter-spacing:-0.186px;white-space:nowrap">Dedicated account support</p></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;width:859.26px">
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.432px;display:flex;align-items:center;justify-content:center"><div style="background:rgba(163,22,46,0.1);border:0.5px solid #a3162e;border-radius:40px;height:20px;width:30px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/a48dedf8-babe-4798-8d74-9e9d013bb8b7.svg" style="width:5.114px;height:5.5px"></div></div>
+      <div style="width:286.414px;display:flex;align-items:center;justify-content:center"><img src="https://www.figma.com/api/mcp/asset/0bcbac53-7780-48a1-85a6-3de0cf14f688.svg" style="width:30px;height:20px"></div>
+    </div>
+  </div>
+
+</div><!-- /feature table -->
+
+<!-- ══ FAQ SECTION ══ -->
+<div class="ab" style="left:50%;transform:translateX(-50%);top:2808px;width:1440px;display:flex;gap:168px;height:584px;align-items:flex-start">
+
+  <!-- Left: heading + CTAs -->
+  <div style="width:546px;flex-shrink:0;display:flex;flex-direction:column;gap:48px;height:424px">
+    <div style="display:flex;flex-direction:column;gap:32px;height:312px;overflow:hidden">
+      <!-- badge -->
+      <div style="position:relative;display:inline-grid;place-items:start">
+        <div style="background:#f2f4f7;border:1px solid #2155b5;height:40px;width:92px;border-radius:60px;grid-column:1;grid-row:1"></div>
+        <div style="grid-column:1;grid-row:1;margin-left:16px;margin-top:13.5px;display:flex;gap:9px;align-items:center;width:60px">
+          <div style="background:#00d9ce;height:4px;width:18px;border-radius:60px;flex-shrink:0"></div>
+          <p style="font-weight:700;font-size:12.5px;color:#2155b5;line-height:1.2;width:33px">FAQ</p>
+        </div>
+      </div>
+      <!-- heading -->
+      <p style="font-weight:500;font-size:64px;color:#14204d;line-height:74px;letter-spacing:-3.5px;width:659px">Frequently Asked <span style="background:linear-gradient(90deg,#2155b5 9.615%,#00d9ce);-webkit-background-clip:text;background-clip:text;color:transparent">Questions</span></p>
+      <p style="font-weight:500;font-size:16px;color:#4b5568;line-height:24px;width:350px">Answers to common questions about FractionEHR, demos, implementation, and getting started.</p>
+    </div>
+    <!-- CTAs -->
+    <div style="display:flex;gap:26px;align-items:flex-start">
+      <div style="position:relative;display:inline-grid;place-items:start;cursor:pointer">
+        <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;padding:0 23.2px 0 4.64px">
+          <p style="font-weight:700;font-size:18px;color:#fff;white-space:nowrap">Get Started</p>
+        </div>
+        <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+      <div onclick="navigate('contact','Contact Us')" style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
+        <p style="font-weight:700;font-size:18px;color:#2155b5;white-space:nowrap">Book a Demo</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: FAQ accordion items -->
+  <div id="pc-faq" style="flex:1;display:flex;flex-direction:column;gap:20px;height:584px">
+
+    <!-- FAQ item 1 — open by default -->
+    <div class="pc-faq-item pc-open" onclick="togglePcFaq(0)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:9px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">How do I request a demo of FractionEHR?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(180deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="margin-top:12px;font-size:16px;line-height:24px;color:#4b5568;width:592px">Use the contact form on this page to tell us about your practice. Select your main requirement and our team will follow up to schedule a walkthrough tailored to your workflow.</p>
+    </div>
+
+    <!-- FAQ item 2 -->
+    <div class="pc-faq-item" onclick="togglePcFaq(1)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">What information should I include when reaching out?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(0deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="display:none;margin-top:12px;font-size:16px;line-height:24px;color:#4b5568">Include your practice name, specialty, approximate provider count, and your current EHR or software setup. This helps us prepare a focused walkthrough for your situation.</p>
+    </div>
+
+    <!-- FAQ item 3 -->
+    <div class="pc-faq-item" onclick="togglePcFaq(2)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">How quickly will someone respond to my inquiry?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(0deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="display:none;margin-top:12px;font-size:16px;line-height:24px;color:#4b5568">Our team typically responds within one business day. For urgent needs, contact us directly through the phone line listed on our contact page.</p>
+    </div>
+
+    <!-- FAQ item 4 -->
+    <div class="pc-faq-item" onclick="togglePcFaq(3)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">Is FractionEHR available for my specialty?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(0deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="display:none;margin-top:12px;font-size:16px;line-height:24px;color:#4b5568">FractionEHR is built on OpenEMR and supports a wide range of specialties. During your demo we can show you how it maps to your specialty&#8217;s workflows.</p>
+    </div>
+
+    <!-- FAQ item 5 -->
+    <div class="pc-faq-item" onclick="togglePcFaq(4)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">Can I migrate from my current EHR or OpenEMR setup?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(0deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="display:none;margin-top:12px;font-size:16px;line-height:24px;color:#4b5568">Yes. We support migration from most common EHR platforms as well as existing self-hosted OpenEMR setups. Data migration is included in the Scale plan and available as an add-on for others.</p>
+    </div>
+
+    <!-- FAQ item 6 -->
+    <div class="pc-faq-item" onclick="togglePcFaq(5)" style="background:#f5f5f5;border-radius:12px;padding:20px 24px;cursor:pointer;border:1px solid rgba(34,34,34,0.12);position:relative">
+      <div style="display:flex;gap:16px;align-items:flex-start;justify-content:space-between">
+        <p style="font-weight:500;font-size:18px;color:#222;line-height:30.6px">Who do I contact if I&#8217;m an existing customer needing support?</p>
+        <div style="width:24px;height:27px;padding-top:3px;flex-shrink:0;display:flex;align-items:center;justify-content:center">
+          <svg class="pc-faq-chevron" style="transform:rotate(0deg);transition:transform 0.2s" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+      </div>
+      <p class="pc-faq-answer" style="display:none;margin-top:12px;font-size:16px;line-height:24px;color:#4b5568">Existing customers can reach our support team via the support portal or by emailing support@fractionehr.com. Scale plan customers have access to a dedicated account manager.</p>
+    </div>
+
+  </div>
+</div><!-- /faq -->
+
+<!-- ══ CTA BANNER top:3592 ══ -->
+<div class="ab" style="left:50%;transform:translateX(-50%);top:3592px;width:1440px;height:416px;display:flex;flex-direction:column;gap:10px;align-items:center;padding:85px 558px">
+  <div style="position:absolute;height:416px;left:0;top:0;width:1440px;overflow:clip;border-radius:32px;background:linear-gradient(135deg,#0d2248 0%,#1a4d9e 30%,#1a8faa 70%,#00d9ce 100%)">
+    <div style="position:absolute;display:flex;height:416px;align-items:center;justify-content:center;left:0;top:0;width:1443px">
+      <div style="transform:rotate(90deg);flex:none"><div style="height:1443px;width:416px;position:relative"><img style="position:absolute;inset:0;width:100%;height:100%;object-position:bottom;pointer-events:none" src="https://www.figma.com/api/mcp/asset/f47b8f4f-c516-4e38-a704-db261edf5d2b.png" alt=""></div></div>
+    </div>
+  </div>
+  <div style="position:relative;width:560px;height:251px;display:flex;flex-direction:column;gap:24px;align-items:center;justify-content:center;overflow:clip">
+    <div style="display:flex;flex-direction:column;gap:16px;align-items:center;width:560px">
+      <p style="font-weight:500;font-size:44px;line-height:48.4px;letter-spacing:-1.32px;color:#fff;text-align:center;width:560px">See how FractionEHR works for your practice</p>
+      <p style="font-weight:500;font-size:16px;color:#fff;line-height:24px;text-align:center;width:545px">Book a walkthrough and see how FractionEHR connects scheduling, clinical documentation, and billing in one managed platform.</p>
+    </div>
+    <div style="display:flex;gap:26px;align-items:flex-start">
+      <div style="position:relative;display:inline-grid;place-items:start;cursor:pointer">
+        <div onclick="navigate('contact','Contact Us')" style="background:#00d9ce;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;grid-column:1;grid-row:1;padding:0 23.2px 0 4.64px">
+          <span style="font-weight:700;font-size:18px;color:#fff;white-space:nowrap">Get Started</span>
+        </div>
+        <div style="grid-column:1;grid-row:1;margin-left:203.59px;margin-top:4.64px;width:51.509px;height:48.72px"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 52 49" fill="none"><circle cx="26" cy="24.5" r="24.5" fill="white"/><path d="M19 24.5h14m0 0l-6-6m6 6l-6 6" stroke="#00d9ce" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      </div>
+      <div onclick="navigate('contact','Contact Us')" style="background:#fff;border:1px solid #2155b5;height:58px;width:260px;border-radius:139.2px;display:flex;align-items:center;justify-content:center;cursor:pointer">
+        <span style="font-weight:700;font-size:18px;color:#2155b5;white-space:nowrap">Book a Demo</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER top:3865 ══ -->
+<div class="ab" style="left:317px;top:3865px;width:1286px;height:978px;display:flex;flex-direction:column;gap:120px;align-items:flex-start;justify-content:flex-end;padding-bottom:24px;overflow:clip">
+  <div style="display:flex;gap:120px;height:529px;align-items:flex-start;width:100%;overflow:clip">
+    <div style="display:flex;flex-direction:column;gap:32px;width:350px">
+      <div style="display:flex;flex-direction:column;gap:16px;width:350px">
+        <div onclick="navigate('home')" style="cursor:pointer;display:flex;align-items:center;gap:12px;height:50px">
+          <img src="https://www.figma.com/api/mcp/asset/4a56e977-60c7-4bdf-a680-58acb426ca6e.svg" alt="FractionEHR" style="width:38px;height:38px;flex-shrink:0">
+          <span style="font-weight:600;font-size:25px;color:#fff;white-space:nowrap">FractionEHR</span>
+        </div>
+        <p style="font-weight:500;font-size:16px;color:#fafafa;line-height:24px;width:351px">FractionEHR is a managed, OpenEMR&#8209;based cloud EHR and practice management platform for independent practices and clinics.</p>
+      </div>
+      <div style="display:flex;gap:8px"><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div><div style="background:#f5f5f5;border-radius:100px;width:36px;height:36px;flex-shrink:0"></div></div>
+    </div>
+    <div style="display:flex;gap:52px;height:529px;align-items:flex-start;font-weight:500;white-space:nowrap;overflow:clip;width:816px">
+      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
+        <p style="font-size:24px;color:#fff;line-height:36px">Products</p>
+        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;line-height:24px">
+          <p onclick="navigate('edi-clearing-house','EDI Clearing House')" class="fl" style="color:#fafafa">EDI Clearing House</p>
+          <p onclick="navigate('practice-mate','Practice Mate')" class="fl" style="color:#fafafa">Practice Mate</p>
+          <p onclick="navigate('ehr-247','EHR 24/7')" class="fl" style="color:#fafafa">EHR 24/7</p>
+          <p style="color:#fafafa;opacity:.5">Insurance Discovery</p>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:515px">
+        <p style="font-size:24px;color:#fff;line-height:36px">Solutions</p>
+        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
+          <p onclick="navigate('patient-records','Patient Records')" class="fl">Patient Records</p>
+          <p onclick="navigate('digital-intake','Digital Intake')" class="fl">Digital Intake &amp; Registration</p>
+          <p onclick="navigate('clinical-notes','Clinical Notes')" class="fl">Clinical Notes &amp; Documentation</p>
+          <p onclick="navigate('labs-orders','Labs &amp; Orders')" class="fl">Labs &amp; Orders</p>
+          <p onclick="navigate('patient-portal','Patient Portal')" class="fl">Patient Portal</p>
+          <p onclick="navigate('role-based-access','Role-Based Access')" class="fl">Role&#8209;Based Access</p>
+          <p onclick="navigate('appointment-scheduling','Appointment Scheduling')" class="fl">Appointment Scheduling</p>
+          <p onclick="navigate('insurance-eligibility','Insurance Eligibility')" class="fl">Insurance Eligibility</p>
+          <p onclick="navigate('eprescribing','ePrescribing')" class="fl">ePrescribing</p>
+          <p onclick="navigate('billing-claims','Billing &amp; Claims')" class="fl">Billing &amp; Claims</p>
+          <p onclick="navigate('reports-analytics','Reports &amp; Analytics')" class="fl">Reports &amp; Analytics</p>
+          <p onclick="navigate('data-migration','Data Migration')" class="fl">Data Migration</p>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
+        <p style="font-size:24px;color:#fff;line-height:36px">Resources</p>
+        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
+          <p class="fl">Blogs</p><p class="fl">What&#8217;s New</p><p class="fl">Knowledge Hub</p>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px;justify-content:center;height:224px">
+        <p style="font-size:24px;color:#fff;line-height:36px">Company</p>
+        <div style="display:flex;flex-direction:column;gap:12px;font-size:16px;color:#fafafa;line-height:24px">
+          <p onclick="navigate('company','Our Company')" class="fl">Our Company</p>
+          <p onclick="navigate('contact','Contact Us')" class="fl">Contact Us</p>
+          <p onclick="navigate('pricing','Pricing')" class="fl">Pricing</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="border-top:1px solid #f2f4f7;display:flex;height:60px;align-items:center;justify-content:center;padding:18px 20px;width:100%">
+    <p style="font-weight:500;font-size:16px;color:#fff;white-space:nowrap;line-height:24px">&#169; 2026 FractionEHR. All rights reserved.</p>
+  </div>
+</div>
+
+</div><!-- /page-pricing -->
+
 </div><!-- /sw -->
 
 <script>
@@ -6833,10 +7394,11 @@ var pageHeightMap = {
   'reports-analytics': 5981,
   'data-migration': 5957,
   'contact': 5587,
-  'edi-clearing-house': 7384,
-  'ehr-247': 6929,
+  'edi-clearing-house': 7844,
+  'ehr-247': 7389,
   'practice-mate': 6264,
-  'company': 6044
+  'company': 6044,
+  'pricing': 4843
   // Pages added from Figma designs will be registered here
 };
 
@@ -7098,6 +7660,276 @@ function toggleCtFaq(idx) {
     }
   });
 }
+
+// ── Pricing billing toggle (segmented pill) ──────────────────
+var pcBillingMode = 'monthly';
+function setPcBilling(mode) {
+  pcBillingMode = mode;
+  var tabM  = document.getElementById('pc-tab-monthly');
+  var tabY  = document.getElementById('pc-tab-yearly');
+  var priceM = document.querySelectorAll('.pc-price-monthly');
+  var priceA = document.querySelectorAll('.pc-price-annual');
+  if (mode === 'yearly') {
+    tabM.style.background = 'transparent';
+    tabM.querySelector('p').style.color = 'rgba(34,34,34,0.6)';
+    tabM.querySelector('p').style.fontWeight = '400';
+    tabY.style.background = '#00d9ce';
+    tabY.querySelector('p').style.color = '#fff';
+    tabY.querySelector('p').style.fontWeight = '500';
+    priceM.forEach(function(el){ el.style.display = 'none'; });
+    priceA.forEach(function(el){ el.style.display = ''; });
+  } else {
+    tabM.style.background = '#00d9ce';
+    tabM.querySelector('p').style.color = '#fff';
+    tabM.querySelector('p').style.fontWeight = '500';
+    tabY.style.background = 'transparent';
+    tabY.querySelector('p').style.color = 'rgba(34,34,34,0.6)';
+    tabY.querySelector('p').style.fontWeight = '400';
+    priceM.forEach(function(el){ el.style.display = ''; });
+    priceA.forEach(function(el){ el.style.display = 'none'; });
+  }
+}
+
+// ── Pricing FAQ accordion ─────────────────────────────────────
+function togglePcFaq(idx) {
+  var items = document.querySelectorAll('#pc-faq .pc-faq-item');
+  items.forEach(function(item, i) {
+    var answer  = item.querySelector('.pc-faq-answer');
+    var chevron = item.querySelector('.pc-faq-chevron');
+    if (i === idx) {
+      var isOpen = item.classList.contains('pc-open');
+      item.classList.toggle('pc-open', !isOpen);
+      if (answer)  answer.style.display  = isOpen ? 'none' : 'block';
+      if (chevron) chevron.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
+    } else {
+      item.classList.remove('pc-open');
+      if (answer)  answer.style.display  = 'none';
+      if (chevron) chevron.style.transform = 'rotate(0deg)';
+    }
+  });
+}
+
+// ── Workflow steps: timer-driven auto-advance 3→3 ──────────────
+var STEP_DURATION = 3200;   // ms each bar takes to fill (tweak here)
+var scrollyPage   = 0;      // 0 = steps 1-3 | 1 = steps 4-6
+var scrollyActive = 0;      // 0-5
+var scrollyTimer  = null;
+var scrollyLoop   = null;
+
+/* ---- helpers ---- */
+function scrollyGetFill(idx) {
+  var step = document.querySelector('.scrolly-step[data-step="' + idx + '"]');
+  if (!step) return null;
+  var f = step.querySelector('.step-fill');
+  if (!f) {
+    f = document.createElement('div');
+    f.className = 'step-fill';
+    f.style.cssText = 'grid-column:1;grid-row:1;background:#2155b5;height:0px;width:8px;border-radius:4px';
+    var grey = step.querySelector('[style*="background:#d9d9d9"]');
+    if (grey && grey.parentNode) grey.parentNode.appendChild(f);
+  }
+  return f;
+}
+
+function scrollyResetAll() {
+  document.querySelectorAll('.step-fill').forEach(function(f) {
+    f.style.transition = 'none';
+    f.style.height = '0px';
+  });
+}
+
+/* ---- activate a step (update colours + image, start timer) ---- */
+function scrollyActivate(idx) {
+  if (scrollyTimer) { clearTimeout(scrollyTimer); scrollyTimer = null; }
+
+  scrollyResetAll();
+  scrollyActive = idx;
+
+  // text colours
+  document.querySelectorAll('.scrolly-step').forEach(function(el) {
+    var active = (parseInt(el.dataset.step) === idx);
+    var h = el.querySelector('.step-heading');
+    var b = el.querySelector('.step-body');
+    if (h) h.style.color = active ? '#0d2248' : '#b0b8c5';
+    if (b) b.style.color = active ? '#4b5568' : '#b0b8c5';
+  });
+
+  // image crossfade
+  document.querySelectorAll('.scrolly-img').forEach(function(img) {
+    img.style.opacity = (parseInt(img.dataset.step) === idx) ? '1' : '0';
+  });
+
+  // kick off fill animation — force reflow so transition fires from 0
+  var fill = scrollyGetFill(idx);
+  if (fill) {
+    fill.style.transition = 'none';
+    fill.style.height = '0px';
+    fill.offsetHeight;                          // force reflow
+    fill.style.transition = 'height ' + (STEP_DURATION / 1000) + 's linear';
+    fill.style.height = '160px';
+  }
+
+  // schedule next step
+  scrollyTimer = setTimeout(scrollyAdvance, STEP_DURATION + 80);
+}
+
+/* ---- advance to next step (or group, or loop) ---- */
+function scrollyAdvance() {
+  var next = scrollyActive + 1;
+  if (next < 3) {
+    // still in group 0
+    scrollyActivate(next);
+  } else if (next === 3) {
+    // cross to group 1
+    scrollyShowGroup(1, function() { scrollyActivate(3); });
+  } else if (next < 6) {
+    // still in group 1
+    scrollyActivate(next);
+  } else {
+    // finished step 6 → loop back to group 0 step 0
+    scrollyShowGroup(0, function() { scrollyActivate(0); });
+  }
+}
+
+/* ---- show a group and call back when ready ---- */
+function scrollyShowGroup(page, cb) {
+  scrollyPage = page;
+  var g0   = document.getElementById('scrolly-group-0');
+  var g1   = document.getElementById('scrolly-group-1');
+  var prev = document.getElementById('scrolly-prev-btn');
+  var nxt  = document.getElementById('scrolly-next-btn');
+  if (page === 0) {
+    g0.style.cssText += ';display:flex;flex-direction:column';
+    g1.style.display  = 'none';
+    prev.style.opacity = '0.3'; prev.style.pointerEvents = 'none';
+    nxt.style.opacity  = '1';   nxt.style.pointerEvents  = 'auto';
+    nxt.style.background = '#2155b5'; nxt.style.border = '';
+    nxt.querySelector('svg').setAttribute('stroke','#fff');
+  } else {
+    g0.style.display  = 'none';
+    g1.style.cssText += ';display:flex;flex-direction:column';
+    prev.style.opacity = '1';   prev.style.pointerEvents = 'auto';
+    nxt.style.opacity  = '0.3'; nxt.style.pointerEvents  = 'none';
+    nxt.style.background = 'transparent'; nxt.style.border = '2px solid #e1e7f0';
+    nxt.querySelector('svg').setAttribute('stroke','#0d2248');
+  }
+  setTimeout(cb, 40);   // tiny delay so display change is painted first
+}
+
+/* ---- manual nav arrow clicks ---- */
+function scrollyPageNav(dir) {
+  var page = Math.max(0, Math.min(1, scrollyPage + dir));
+  if (page === scrollyPage) return;
+  scrollyShowGroup(page, function() {
+    scrollyActivate(page === 0 ? 0 : 3);
+  });
+}
+
+/* ---- manual step click ---- */
+function scrollyClickStep(idx) {
+  var targetPage = idx < 3 ? 0 : 1;
+  if (targetPage !== scrollyPage) {
+    scrollyShowGroup(targetPage, function() { scrollyActivate(idx); });
+  } else {
+    scrollyActivate(idx);
+  }
+}
+
+/* ---- init ---- */
+(function() {
+  scrollyResetAll();
+  scrollyActivate(0);
+})();
+
+
+// ── Sticky card-stack overlay: EDI & EHR 24/7 ──────────────────
+/*
+ *  How it works
+ *  ────────────
+ *  The section sits at canvas top:950.  Nav is 108 canvas-px tall.
+ *  When the user scrolls to canvas-scrollY 842 (= 950 - 108), the
+ *  section top reaches the nav bottom — we "pin" it here.
+ *
+ *  Pinning: apply translateY(offset) to every element in the section
+ *  so they counteract the scroll and stay visually fixed.
+ *  offset = clamp(canvas_scrollY − 842, 0, 1200)
+ *
+ *  Card animation runs over the 1200-unit sticky window:
+ *   •  First half  (0–600): Card 02 slides up to overlay Card 01
+ *   •  Second half (600–1200): Card 03 slides up to overlay Card 02
+ *
+ *  When offset reaches 1200 the pin releases; section scrolls normally.
+ */
+(function () {
+
+  var STICK_ENTER = 842;   // canvas-scrollY that activates the pin
+  var STICK_ZONE  = 1200;  // canvas units of pinned scroll range
+  var C2_OFFSET   = 366;   // canvas px card-2 must travel to reach card-1
+  var C3_OFFSET   = 740;   // canvas px card-3 must travel to reach card-1
+
+  function clamp(v,lo,hi){ return v<lo?lo:v>hi?hi:v; }
+  function ease(t){ return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2; }
+  function tf(px){ return px===0?'none':'translateY('+px.toFixed(2)+'px)'; }
+
+  var cache = {};
+  function q(sel){
+    if(!cache[sel]) cache[sel] = document.querySelectorAll(sel);
+    return cache[sel];
+  }
+
+  function update() {
+    var page = typeof currentPage !== 'undefined' ? currentPage : '';
+    var key  = page==='edi-clearing-house' ? 'edi'
+             : page==='ehr-247'            ? 'ehr' : null;
+    if (!key) return;
+
+    var s      = window.innerWidth / 1920;
+    var scr    = window.scrollY / s;                       // canvas scrollY
+    var raw    = scr - STICK_ENTER;
+    var offset = clamp(raw, 0, STICK_ZONE);                // 0 → 1200
+    var prog   = offset / STICK_ZONE;                      // 0 → 1
+
+    /* ── Left-side content + Card 01: pure sticky offset ── */
+    var base = tf(offset);
+    q('[data-stick-sec="'+key+'"]').forEach(function(el){
+      el.style.transform = base;
+    });
+    q('[data-stack-card="'+key+'-c1"]').forEach(function(el){
+      el.style.transform = base;
+    });
+
+    /* ── Card 02: sticky offset  +  first-half slide + fade-in ── */
+    var p2   = ease(clamp(prog * 2, 0, 1));           // 0→1 in first half
+    var ty2  = offset - C2_OFFSET * p2;
+    var op2  = Math.min(1, p2 * 6).toFixed(3);        // fades in quickly
+    q('[data-stack-card="'+key+'-c2"]').forEach(function(el){
+      el.style.transform = tf(ty2);
+      el.style.opacity   = op2;
+    });
+
+    /* ── Card 03: sticky offset  +  second-half slide + fade-in ── */
+    var p3   = ease(clamp((prog - 0.5) * 2, 0, 1));   // 0→1 in second half
+    var ty3  = offset - C3_OFFSET * p3;
+    var op3  = Math.min(1, p3 * 6).toFixed(3);
+    q('[data-stack-card="'+key+'-c3"]').forEach(function(el){
+      el.style.transform = tf(ty3);
+      el.style.opacity   = op3;
+    });
+  }
+
+  window.addEventListener('scroll', update, {passive:true});
+
+  /* Reset cache + re-run on page navigation */
+  var _nav = typeof navigate==='function' ? navigate : null;
+  if (_nav) {
+    window.navigate = function(){
+      cache = {};
+      _nav.apply(this, arguments);
+      setTimeout(update, 60);
+    };
+  }
+
+})();
 
 // ── Scale canvas ───────────────────────────────────────
 function scaleCanvas() {
