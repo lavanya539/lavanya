@@ -1,0 +1,21 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="23.5306" height="29.0028" viewBox="0 0 23.5306 29.0028" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_0_29" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="30">
+<g id="Group">
+<g id="Group_2">
+<path id="Vector" d="M21.3417 0.820833H2.18889C1.82606 0.820833 1.47809 0.964967 1.22153 1.22153C0.964968 1.47809 0.820833 1.82606 0.820833 2.18889V26.8139C0.820833 27.1767 0.964968 27.5247 1.22153 27.7813C1.47809 28.0378 1.82606 28.1819 2.18889 28.1819H21.3417C21.7045 28.1819 22.0525 28.0378 22.309 27.7813C22.5656 27.5247 22.7097 27.1767 22.7097 26.8139V2.18889C22.7097 1.82606 22.5656 1.47809 22.309 1.22153C22.0525 0.964967 21.7045 0.820833 21.3417 0.820833Z" fill="white" stroke="white" stroke-width="1.64167" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M6.97708 18.6056H16.5535M6.97708 22.7098H11.7653M8.34514 9.71326H15.1854M11.7653 13.1334V6.29312" stroke="black" stroke-width="1.64167" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</mask>
+<g mask="url(#mask0_0_29)">
+<path id="Vector_3" d="M-4.65219 -1.91542H28.1811V30.9179H-4.65219V-1.91542Z" fill="url(#paint0_linear_0_29)"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_29" x1="11.7645" y1="-1.91542" x2="11.7645" y2="30.9179" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2155B5"/>
+<stop offset="1" stop-color="#00D9CE"/>
+</linearGradient>
+</defs>
+</svg>
