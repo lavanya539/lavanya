@@ -25,11 +25,16 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Prepare website
         run: |
-          mkdir site
+          mkdir -p site/assets/png
+          mkdir -p site/assets/svg
+
           cp -r fractionehrartifact/. site/
+
+          find fractionehrartifact -maxdepth 1 -type f -name "*.png" -exec cp {} site/assets/png/ \;
+          find fractionehrartifact -maxdepth 1 -type f -name "*.svg" -exec cp {} site/assets/svg/ \;
+
           cp fractionehrartifact/index_local.html site/index.html
 
       - name: Upload Pages artifact
